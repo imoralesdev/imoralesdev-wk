@@ -1,9 +1,10 @@
 'use client'
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Button } from '../components/ui/button';
-import { Check, X, RefreshCw, HelpCircle } from 'lucide-react';
+import { Check, X, RefreshCw, HelpCircle, ArrowLeft } from 'lucide-react';
 import _ from 'lodash';
 import vocabularyData from '../data/index';
 
@@ -140,8 +141,14 @@ const VocabularyQuiz = () => {
 
   return (
     <div className="max-w-2xl mx-auto p-4">
+      <Link href="/" className="mb-4 md:mb-0">
+          <Button variant="outline" className="flex items-center gap-2 text-sm md:text-base">
+            <ArrowLeft className="h-4 w-4" />
+            Back to Home
+          </Button>
+        </Link>
       <div className="text-center mb-6">
-        <h1 className="text-2xl font-bold mb-2">ASVAB Vocabulary Quiz</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-center md:text-left mt-10">ASVAB Vocabulary Quiz</h1>
         {gameState.gameStarted && (
           <div className="flex justify-center gap-6 mb-4">
             <div className="text-lg">Score: {gameState.score}</div>
