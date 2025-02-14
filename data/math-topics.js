@@ -5,3 +5,4 @@ export { geometryTopics } from './geometry-topics';
 export { statisticsTopics } from './statistics-topics';
 export { probabilityTopics } from './probability-topics';
 export { proportionTopics } from './proportion-topics';
+export { unitConversionTopics } from './unit-conversion-topics';

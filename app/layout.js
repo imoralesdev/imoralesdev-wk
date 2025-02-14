@@ -41,6 +41,102 @@ export default function RootLayout({ children }) {
             }
           `
         }} />
+        <style dangerouslySetInnerHTML={{
+            __html: `
+              .formula-container {
+                position: relative;
+                margin: 1rem 0;
+              }
+
+              .formula-container pre {
+                font-family: 'Courier New', Courier, monospace;
+                line-height: 1.5;
+                padding: 1rem;
+                margin: 0;
+                background-color: #f8fafc;
+                border-radius: 0.5rem;
+                overflow-x: auto;
+                white-space: pre-wrap;
+              }
+
+              .formula-container pre::-webkit-scrollbar {
+                height: 4px;
+              }
+
+              .formula-container pre::-webkit-scrollbar-track {
+                background: #f1f1f1;
+              }
+
+              .formula-container pre::-webkit-scrollbar-thumb {
+                background: #888;
+                border-radius: 2px;
+              }
+
+              .formula-symbol {
+                font-weight: bold;
+                color: #4a5568;
+              }
+
+              .formula-divider {
+                border-top: 1px solid #e2e8f0;
+                margin: 0.5rem 0;
+              }
+
+              .formula-box {
+                border: 1px solid #e2e8f0;
+                padding: 1rem;
+                margin: 0.5rem 0;
+                border-radius: 0.5rem;
+                background-color: #f8fafc;
+              }
+
+              .formula-equation {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0.5rem;
+                font-family: 'Courier New', Courier, monospace;
+              }
+
+              /* For proper alignment of mathematical operations */
+              .formula-operator {
+                margin: 0 0.5rem;
+                font-weight: bold;
+              }
+
+              /* For division and fractions */
+              .fraction {
+                display: inline-block;
+                text-align: center;
+                vertical-align: middle;
+                margin: 0 0.2rem;
+              }
+              
+              .fraction > span {
+                display: block;
+                padding: 0.1rem;
+              }
+              
+              .fraction span.divider {
+                border-top: thin solid;
+              }
+
+              /* For unit conversions */
+              .conversion-arrow {
+                color: #4a5568;
+                margin: 0 0.5rem;
+              }
+
+              /* Example boxes */
+              .example-box {
+                background-color: #f8fafc;
+                border-left: 4px solid #3b82f6;
+                padding: 1rem;
+                margin: 1rem 0;
+                border-radius: 0 0.5rem 0.5rem 0;
+              }
+            `
+          }} />
       </head>
       <body className={inter.className}>
         <div className="min-h-screen bg-white">

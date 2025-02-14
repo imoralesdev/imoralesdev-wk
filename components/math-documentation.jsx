@@ -6,17 +6,66 @@ import { Button } from './ui/button';
 import { 
   Percent, Timer, Calculator, Square, 
   BarChart3, Dice5, Scale, ChevronDown, 
-  ChevronRight, BookOpen, ArrowLeft 
+  ChevronRight, BookOpen, ArrowLeft, ArrowsUpDown 
 } from 'lucide-react';
 import Link from 'next/link';
 import { 
   percentageTopics, drtTopics, financialTopics, 
   geometryTopics, statisticsTopics, probabilityTopics, 
-  proportionTopics 
+  proportionTopics, unitConversionTopics
 } from '../data/math-topics';
+
+const getIcon = () => {
+  switch (topic.icon) {
+    case 'Percent':
+      return <Percent className="h-5 w-5 md:h-6 md:w-6" />;
+    case 'Timer':
+      return <Timer className="h-5 w-5 md:h-6 md:w-6" />;
+    case 'Calculator':
+      return <Calculator className="h-5 w-5 md:h-6 md:w-6" />;
+    case 'Square':
+      return <Square className="h-5 w-5 md:h-6 md:w-6" />;
+    case 'BarChart3':
+      return <BarChart3 className="h-5 w-5 md:h-6 md:w-6" />;
+    case 'Dice5':
+      return <Dice5 className="h-5 w-5 md:h-6 md:w-6" />;
+    case 'Scale':
+      return <Scale className="h-5 w-5 md:h-6 md:w-6" />;
+    case 'ArrowsUpDown':
+      return <ArrowsUpDown className="h-5 w-5 md:h-6 md:w-6" />;
+    default:
+      return <BookOpen className="h-5 w-5 md:h-6 md:w-6" />;
+  }
+};
+
+const FormulaDisplay = ({ formula }) => {
+  return (
+    <div className="font-mono bg-gray-50 p-3 rounded-lg overflow-x-auto">
+      {formula.split('\n').map((line, index) => (
+        <div key={index} className="flex items-center space-x-2 my-1">
+          <span className="text-gray-800 whitespace-pre font-medium">
+            {line}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const TopicSection = ({ section }) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const formatFormula = (formula) => {
+    // Replace text operators with mathematical symbols
+    return formula
+      .replace(/×/g, '·')  // multiplication dot
+      .replace(/->/g, '→') // arrow
+      .replace(/≈/g, '≅')  // approximately equal
+      .replace(/=/g, '＝')  // equal sign
+      .replace(/\*/g, '×') // multiplication
+      .replace(/square/g, '²')  // squared
+      .replace(/cubic/g, '³');  // cubed
+  };
 
   return (
     <div className="mb-4 w-full">
@@ -38,9 +87,7 @@ const TopicSection = ({ section }) => {
           {section.formula && (
             <div className="mb-3">
               <p className="font-semibold text-gray-700 text-sm md:text-base">Formula:</p>
-              <div className="font-mono bg-gray-50 p-2 rounded mt-1 text-sm md:text-base overflow-x-auto">
-                {section.formula}
-              </div>
+              <FormulaDisplay formula={section.formula} />
             </div>
           )}
           
@@ -49,7 +96,7 @@ const TopicSection = ({ section }) => {
               <p className="font-semibold text-gray-700 text-sm md:text-base">Example:</p>
               <div className="bg-gray-50 p-2 md:p-3 rounded mt-1">
                 <p className="mb-2 text-sm md:text-base">{section.example.question}</p>
-                <p className="text-gray-600 mb-2 text-sm md:text-base">Solution: {section.example.solution}</p>
+                <FormulaDisplay formula={section.formula} />
                 <p className="font-bold text-gray-800 text-sm md:text-base">Answer: {section.example.answer}</p>
               </div>
             </div>
@@ -126,7 +173,8 @@ const MathDocumentation = () => {
     geometryTopics,
     statisticsTopics,
     probabilityTopics,
-    proportionTopics
+    proportionTopics,
+    unitConversionTopics
   ];
 
   return (
