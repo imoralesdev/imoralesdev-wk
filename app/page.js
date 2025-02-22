@@ -6,7 +6,8 @@ import {
   BookOpen, 
   Calculator, 
   BrainCircuit,
-  ArrowLeftRight
+  ArrowLeftRight,
+  Divide
 } from 'lucide-react'
 
 export default function Home() {
@@ -82,6 +83,23 @@ export default function Home() {
               <CardContent>
                 <p className="text-gray-600">
                   Learn and practice essential unit conversions with interactive drills and memory tips.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          {/* Friendly Fractions Section */}
+          <Link href="/fractions" className="transform hover:scale-105 transition-transform">
+            <Card className="hover:shadow-lg cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Divide className="h-6 w-6 text-amber-500" />
+                  Friendly Fractions
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Master common fraction-to-percentage conversions with practice drills and memory tips.
                 </p>
               </CardContent>
             </Card>
