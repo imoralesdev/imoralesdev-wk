@@ -5,7 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { 
   BookOpen, 
   Calculator, 
-  BrainCircuit
+  BrainCircuit,
+  ArrowLeftRight
 } from 'lucide-react'
 
 export default function Home() {
@@ -64,6 +65,23 @@ export default function Home() {
               <CardContent>
                 <p className="text-gray-600">
                   Comprehensive guide to all ASVAB math topics with formulas and examples.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          {/* Unit Conversion Section */}
+          <Link href="/conversions" className="transform hover:scale-105 transition-transform">
+            <Card className="hover:shadow-lg cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <ArrowLeftRight className="h-6 w-6 text-teal-500" />
+                  Unit Conversions
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Learn and practice essential unit conversions with interactive drills and memory tips.
                 </p>
               </CardContent>
             </Card>
