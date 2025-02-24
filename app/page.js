@@ -7,7 +7,8 @@ import {
   Calculator, 
   BrainCircuit,
   ArrowLeftRight,
-  Divide
+  Divide,
+  Languages
 } from 'lucide-react'
 
 export default function Home() {
@@ -100,6 +101,23 @@ export default function Home() {
               <CardContent>
                 <p className="text-gray-600">
                   Master common fraction-to-percentage conversions with practice drills and memory tips.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          {/* Prefix Practice Section */}
+          <Link href="/prefixes" className="transform hover:scale-105 transition-transform">
+            <Card className="hover:shadow-lg cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Languages className="h-6 w-6 text-indigo-500" />
+                  Prefix Practice
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Master common prefixes and their meanings with interactive drills and example words.
                 </p>
               </CardContent>
             </Card>
