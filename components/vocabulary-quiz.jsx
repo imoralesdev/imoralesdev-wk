@@ -103,7 +103,7 @@ const VocabularyQuiz = () => {
       score: correct ? prev.score + 10 : prev.score,
       streak: newStreak,
       bestStreak: newBestStreak,
-      showWordParts: true // Show word parts after answering
+      showWordParts: false // Show word parts after answering
     }));
 
     setTimeout(() => {

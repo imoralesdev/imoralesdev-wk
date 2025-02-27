@@ -1,26 +1,35 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
 import { Check, X, Lightbulb, ArrowLeft, RefreshCw } from 'lucide-react';
 import Link from 'next/link';
+import { shuffle } from 'lodash'; // Import shuffle from lodash
 
 const ConversionDrills = ({ conversionGroups }) => {
   const [selectedGroup, setSelectedGroup] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [showAnswer, setShowAnswer] = useState(false);
   const [showTip, setShowTip] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [totalAttempts, setTotalAttempts] = useState(0);
+  const [shuffledOptions, setShuffledOptions] = useState([]);
+
+  // Shuffle options when question changes
+  useEffect(() => {
+    if (selectedGroup !== null) {
+      const options = [...getCurrentQuestion().options];
+      setShuffledOptions(shuffle(options));
+    }
+  }, [selectedGroup, currentQuestionIndex]);
 
   const handleGroupSelect = (index) => {
     setSelectedGroup(index);
     setCurrentQuestionIndex(0);
-    setShowAnswer(false);
     setShowTip(false);
     setSelectedAnswer(null);
+    // Options will be shuffled by the useEffect
   };
 
   const handleAnswer = (answer) => {
@@ -44,13 +53,26 @@ const ConversionDrills = ({ conversionGroups }) => {
       setCurrentQuestionIndex(0);
     }
     setSelectedAnswer(null);
-    setShowAnswer(false);
     setShowTip(false);
+    // Options will be shuffled by the useEffect
   };
 
   const resetStats = () => {
     setCorrectAnswers(0);
     setTotalAttempts(0);
+  };
+
+  // Get the title based on the contentType property or default
+  const getContentTitle = () => {
+    const typeMap = {
+      "unit-conversions": "Unit Conversion Practice",
+      "fractions": "Friendly Fractions Practice",
+      "prefixes": "Prefix Practice",
+      default: "Practice Drill"
+    };
+    
+    const contentType = conversionGroups[0]?.contentType || "default";
+    return typeMap[contentType] || typeMap.default;
   };
 
   return (
@@ -65,7 +87,7 @@ const ConversionDrills = ({ conversionGroups }) => {
       </div>
 
       <div className="mb-6">
-        <h1 className="text-2xl font-bold mb-4">Unit Conversion Practice</h1>
+        <h1 className="text-2xl font-bold mb-4">{getContentTitle()}</h1>
         {selectedGroup === null ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {conversionGroups.map((group, index) => (
@@ -94,8 +116,10 @@ const ConversionDrills = ({ conversionGroups }) => {
             <CardContent>
               <div className="mb-6">
                 <p className="text-lg font-medium mb-4">{getCurrentQuestion().question}</p>
+                
+                {/* Using shuffled options instead of original order */}
                 <div className="grid grid-cols-2 gap-3">
-                  {getCurrentQuestion().options.map((option, index) => (
+                  {shuffledOptions.map((option, index) => (
                     <Button
                       key={index}
                       onClick={() => handleAnswer(option)}
@@ -133,6 +157,16 @@ const ConversionDrills = ({ conversionGroups }) => {
               {showTip && (
                 <div className="bg-blue-50 p-4 rounded-lg mb-4">
                   <p className="text-blue-800">{getCurrentQuestion().tip}</p>
+                  
+                  {/* Show examples if available */}
+                  {getCurrentQuestion().examples && (
+                    <div className="mt-2">
+                      <p className="font-medium text-blue-800">Examples:</p>
+                      <p className="text-blue-800">
+                        {getCurrentQuestion().examples.join(", ")}
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
 
