@@ -174,6 +174,7 @@ const VocabularyQuiz = () => {
                 value={questionsCount}
                 onChange={(e) => setQuestionsCount(Number(e.target.value))}
               >
+                <option value={10}>10 Questions</option>
                 <option value={20}>20 Questions</option>
                 <option value={40}>40 Questions</option>
                 <option value={60}>60 Questions</option>
