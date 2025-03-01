@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Button } from '../components/ui/button';
-import { Check, X, RefreshCw, HelpCircle, ArrowLeft } from 'lucide-react';
+import { Check, X, RefreshCw, HelpCircle, ArrowLeft, Globe } from 'lucide-react';
 import _ from 'lodash';
 import vocabularyData from '../data/index';
 
@@ -29,10 +29,11 @@ const VocabularyQuiz = () => {
     bestStreak: 0,
     usedQuestions: new Set(),
     showHint: false,
-    showWordParts: false
+    showWordParts: false,
+    showSpanish: false
   });
 
-  const [questionsCount, setQuestionsCount] = useState(20);
+  const [questionsCount, setQuestionsCount] = useState(10);
 
   const resetToInitial = () => {
     setGameState({
@@ -47,7 +48,8 @@ const VocabularyQuiz = () => {
       bestStreak: 0,
       usedQuestions: new Set(),
       showHint: false,
-      showWordParts: false
+      showWordParts: false,
+      showSpanish: false
     });
   };
 
@@ -72,7 +74,8 @@ const VocabularyQuiz = () => {
       bestStreak: 0,
       usedQuestions: new Set([firstQuestion.word]),
       showHint: false,
-      showWordParts: false
+      showWordParts: false,
+      showSpanish: false
     });
   };
 
@@ -87,6 +90,13 @@ const VocabularyQuiz = () => {
     setGameState(prev => ({
       ...prev,
       showWordParts: !prev.showWordParts
+    }));
+  };
+
+  const toggleSpanish = () => {
+    setGameState(prev => ({
+      ...prev,
+      showSpanish: !prev.showSpanish
     }));
   };
 
@@ -216,7 +226,8 @@ const VocabularyQuiz = () => {
           <CardContent>
             <div className="text-center mb-6">
               <h2 className="text-xl font-bold mb-2">{gameState.currentQuestion.word}</h2>
-              <p className="text-gray-600 italic mb-4">Spanish: {gameState.currentQuestion.spanish}</p>
+              
+              
               
               <div className="mb-4 flex justify-center gap-2">
                 <Button
@@ -237,7 +248,19 @@ const VocabularyQuiz = () => {
                   <HelpCircle className="h-4 w-4" />
                   {gameState.showWordParts ? 'Hide Word Parts' : 'Show Word Parts'}
                 </Button>
+                <Button
+                  variant="outline"
+                  onClick={toggleSpanish}
+                  className="flex items-center gap-2"
+                >
+                  <Globe className="h-4 w-4" />
+                  {gameState.showSpanish ? 'Hide Spanish' : 'Show Spanish'}
+                </Button>
               </div>
+
+              {gameState.showSpanish && (
+                <p className="text-gray-600 italic mb-4">Spanish: {gameState.currentQuestion.spanish}</p>
+              )}
 
               {gameState.showHint && (
                 <div className="bg-blue-50 p-4 rounded-lg mb-4 text-sm">
