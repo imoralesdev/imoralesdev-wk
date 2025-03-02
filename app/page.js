@@ -8,7 +8,8 @@ import {
   BrainCircuit,
   ArrowLeftRight,
   Divide,
-  Languages
+  Languages,
+  NotebookPen
 } from 'lucide-react'
 
 export default function Home() {
@@ -33,6 +34,22 @@ export default function Home() {
               <CardContent>
                 <p className="text-gray-600">
                   Practice essential ASVAB vocabulary with interactive quizzes and word analysis.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/vocabulary-asvab" className="transform hover:scale-105 transition-transform">
+            <Card className="hover:shadow-lg cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <NotebookPen className="h-6 w-6 text-blue-500" />
+                  ASVAB Vocabulary Quiz
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  With interactive quizzes and word analysis, you may practice ASVAB vocabulary that is actually used on the exam.
                 </p>
               </CardContent>
             </Card>
