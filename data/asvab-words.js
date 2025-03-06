@@ -1142,6 +1142,115 @@ export const asvab = [
     "correct": "cabin",
     "example": "Alquilamos un bungaló cerca de la playa. (Vivienda de una planta)",
     "alternates": ["skyscraper", "mansion", "apartment"]
+  },{
+    "word": "sham",
+    "spanish": "farsa",
+    "prefix": "",
+    "root": "sham (something fake or fraudulent)",
+    "suffix": "",
+    "meaning": "Something that is not what it purports to be; a false display",
+    "correct": "impostor",
+    "example": "La venta resultó ser una farsa para engañar a los compradores.",
+    "alternates": ["genuine", "authentic", "real"]
+  },
+  {
+    "word": "acknowledge",
+    "spanish": "reconocer",
+    "prefix": "ac- (to)",
+    "root": "knowledge (awareness)",
+    "suffix": "",
+    "meaning": "Accept or admit the truth or existence of something",
+    "correct": "recognize",
+    "example": "El profesor pidió reconocer el esfuerzo de todos los estudiantes.",
+    "alternates": ["deny", "ignore", "overlook"]
+  },
+  {
+    "word": "allude",
+    "spanish": "aludir",
+    "prefix": "ad- (to)",
+    "root": "lud (play, trick, from Latin ludere)",
+    "suffix": "",
+    "meaning": "Suggest or call attention to indirectly; hint at",
+    "correct": "refer",
+    "example": "Trató de aludir al problema sin mencionarlo abiertamente.",
+    "alternates": ["declare", "state plainly", "explain"]
+  },
+  {
+    "word": "knead",
+    "spanish": "amasar",
+    "prefix": "",
+    "root": "knead (to work dough or clay)",
+    "suffix": "",
+    "meaning": "Work moistened flour or clay into dough or paste with the hands",
+    "correct": "mix",
+    "example": "Necesitas amasar la masa para que quede suave y uniforme.",
+    "alternates": ["separate", "divide", "pull apart"]
+  },
+  {
+    "word": "crevice",
+    "spanish": "grieta",
+    "prefix": "crev- (crack)",
+    "root": "ice (state or result)",
+    "suffix": "",
+    "meaning": "A narrow opening or fissure, especially in a rock or wall",
+    "correct": "fissure",
+    "example": "Había una grieta pequeña en la pared de la cueva.",
+    "alternates": ["smooth surface", "unbroken wall", "solid ground"]
+  },
+  {
+    "word": "erratic",
+    "spanish": "errático",
+    "prefix": "err- (wander)",
+    "root": "atic (pertaining to)",
+    "suffix": "",
+    "meaning": "Not even or regular in pattern or movement; unpredictable",
+    "correct": "inconsistent",
+    "example": "Su conducta es muy errática, nunca sabemos qué va a hacer.",
+    "alternates": ["reliable", "steady", "predictable"]
+  },
+  {
+    "word": "convoy",
+    "spanish": "convoy",
+    "prefix": "con- (together)",
+    "root": "voy (way, journey)",
+    "suffix": "",
+    "meaning": "A group of ships or vehicles traveling together for protection",
+    "correct": "cavalcade",
+    "example": "El convoy militar avanzaba por la carretera con escolta.",
+    "alternates": ["single vehicle", "individual", "solo trip"]
+  },
+  {
+    "word": "tepid",
+    "spanish": "tibio",
+    "prefix": "tep- (warm)",
+    "root": "id (state)",
+    "suffix": "",
+    "meaning": "Only slightly warm; showing little enthusiasm",
+    "correct": "lukewarm",
+    "example": "El agua estaba tibia, perfecta para lavarse las manos.",
+    "alternates": ["boiling", "icy", "scorching"]
+  },
+  {
+    "word": "abhor",
+    "spanish": "aborrecer",
+    "prefix": "ab- (away)",
+    "root": "hor (shudder, from Latin horrere)",
+    "suffix": "",
+    "meaning": "Regard with disgust and hatred",
+    "correct": "detest",
+    "example": "Ella aborrece la crueldad hacia los animales.",
+    "alternates": ["admire", "cherish", "love"]
+  },
+  {
+    "word": "rash",
+    "spanish": "temerario",
+    "prefix": "",
+    "root": "rash (hasty, reckless)",
+    "suffix": "",
+    "meaning": "Acting or done without careful consideration of consequences",
+    "correct": "impetuous",
+    "example": "Fue un acto temerario que casi lo metió en problemas.",
+    "alternates": ["cautious", "prudent", "careful"]
   }
 ]
 
