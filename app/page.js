@@ -9,7 +9,8 @@ import {
   ArrowLeftRight,
   Divide,
   Languages,
-  NotebookPen
+  NotebookPen,
+  Zap
 } from 'lucide-react'
 
 export default function Home() {
@@ -135,6 +136,23 @@ export default function Home() {
               <CardContent>
                 <p className="text-gray-600">
                   Master common prefixes and their meanings with interactive drills and example words.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          {/* Electrical Quiz Section */}
+          <Link href="/electrical" className="transform hover:scale-105 transition-transform">
+            <Card className="hover:shadow-lg cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Zap className="h-6 w-6 text-yellow-500" />
+                  Electrical Concepts
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Test your knowledge of electrical principles, components, and calculations with this interactive quiz.
                 </p>
               </CardContent>
             </Card>
