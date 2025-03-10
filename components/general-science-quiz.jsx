@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
-import { Check, X, RefreshCw, HelpCircle, ArrowLeft, Globe } from 'lucide-react';
+import { Check, X, RefreshCw, HelpCircle, ArrowLeft, Beaker } from 'lucide-react';
 import _ from 'lodash';
-import vocabularyData from '../data/asvab-words';
+import scienceData from '../data/science-questions';
 
 const AdPlaceholder = ({ position }) => {
   return (
@@ -16,7 +16,7 @@ const AdPlaceholder = ({ position }) => {
   );
 };
 
-const VocabularyQuiz = () => {
+const ScienceQuiz = () => {
   const [gameState, setGameState] = useState({
     questions: [],
     currentQuestion: null,
@@ -28,9 +28,7 @@ const VocabularyQuiz = () => {
     streak: 0,
     bestStreak: 0,
     usedQuestions: new Set(),
-    showHint: false,
-    showWordParts: false,
-    showSpanish: false
+    showExplanation: false
   });
 
   const [questionsCount, setQuestionsCount] = useState(10);
@@ -47,19 +45,19 @@ const VocabularyQuiz = () => {
       streak: 0,
       bestStreak: 0,
       usedQuestions: new Set(),
-      showHint: false,
-      showWordParts: false,
-      showSpanish: false
+      showExplanation: false
     });
   };
 
   const resetGame = () => {
-    const selectedQuestions = _.sampleSize(vocabularyData, questionsCount);
+    const selectedQuestions = _.sampleSize(scienceData.questions, questionsCount);
     const shuffledQuestions = _.shuffle(selectedQuestions);
-    console.log(shuffledQuestions)
+    
+    // For the first question, shuffle the options
     const firstQuestion = {
       ...shuffledQuestions[0],
-      options: _.shuffle([...shuffledQuestions[0].alternates, shuffledQuestions[0].correct])
+      // Create a shuffled copy of the options array
+      options: _.shuffle([...shuffledQuestions[0].options])
     };
     
     setGameState({
@@ -72,38 +70,23 @@ const VocabularyQuiz = () => {
       gameStarted: true,
       streak: 0,
       bestStreak: 0,
-      usedQuestions: new Set([firstQuestion.word]),
-      showHint: false,
-      showWordParts: false,
-      showSpanish: false
+      usedQuestions: new Set([firstQuestion.id]),
+      showExplanation: false
     });
   };
 
-  const toggleHint = () => {
+  const toggleExplanation = () => {
     setGameState(prev => ({
       ...prev,
-      showHint: !prev.showHint
-    }));
-  };
-
-  const toggleWordParts = () => {
-    setGameState(prev => ({
-      ...prev,
-      showWordParts: !prev.showWordParts
-    }));
-  };
-
-  const toggleSpanish = () => {
-    setGameState(prev => ({
-      ...prev,
-      showSpanish: !prev.showSpanish
+      showExplanation: !prev.showExplanation
     }));
   };
 
   const handleAnswer = (answer) => {
     if (gameState.selectedAnswer !== null) return;
     
-    const correct = answer === gameState.currentQuestion.correct;
+    // Check if the selected answer matches the correct answer string
+    const correct = answer === gameState.currentQuestion.correct_answer;
     const newStreak = correct ? gameState.streak + 1 : 0;
     const newBestStreak = Math.max(gameState.bestStreak, newStreak);
     
@@ -113,7 +96,7 @@ const VocabularyQuiz = () => {
       score: correct ? prev.score + 10 : prev.score,
       streak: newStreak,
       bestStreak: newBestStreak,
-      showWordParts: false // Show word parts after answering
+      showExplanation: false // We're setting this to false to hide the explanation
     }));
 
     setTimeout(() => {
@@ -121,17 +104,19 @@ const VocabularyQuiz = () => {
         const nextQuestionIndex = gameState.questionNumber + 1;
         const nextQuestion = gameState.questions[nextQuestionIndex];
         
+        // Shuffle the options for the next question
+        const nextQuestionWithShuffledOptions = {
+          ...nextQuestion,
+          options: _.shuffle([...nextQuestion.options])
+        };
+        
         setGameState(prev => ({
           ...prev,
           questionNumber: nextQuestionIndex,
-          currentQuestion: {
-            ...nextQuestion,
-            options: _.shuffle([...nextQuestion.alternates, nextQuestion.correct])
-          },
+          currentQuestion: nextQuestionWithShuffledOptions,
           selectedAnswer: null,
-          usedQuestions: new Set([...prev.usedQuestions, nextQuestion.word]),
-          showHint: false,
-          showWordParts: false
+          usedQuestions: new Set([...prev.usedQuestions, nextQuestion.id]),
+          showExplanation: false
         }));
       } else {
         setGameState(prev => ({
@@ -139,7 +124,7 @@ const VocabularyQuiz = () => {
           showResult: true
         }));
       }
-    }, 2000); // Increased delay to give time to read word parts
+    }, 3000); // Increased delay to give time to read explanation
   };
 
   const handleEndQuiz = () => {
@@ -147,6 +132,11 @@ const VocabularyQuiz = () => {
       ...prev,
       showResult: true
     }));
+  };
+
+  const calculatePercentage = () => {
+    if (questionsCount === 0) return 0;
+    return Math.round((gameState.score / (questionsCount * 10)) * 100);
   };
 
   return (
@@ -158,7 +148,7 @@ const VocabularyQuiz = () => {
           </Button>
         </Link>
       <div className="text-center mb-6">
-        <h1 className="text-2xl md:text-3xl font-bold text-center md:text-left mt-10">ASVAB Vocabulary Quiz</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-center md:text-left mt-10">General Science Quiz</h1>
         {gameState.gameStarted && (
           <div className="flex justify-center gap-6 mb-4">
             <div className="text-lg">Score: {gameState.score}</div>
@@ -174,8 +164,8 @@ const VocabularyQuiz = () => {
         <Card className="text-center p-6">
           <CardContent>
             <p className="mb-4">
-              Test your ASVAB vocabulary knowledge! Match each word with its correct synonym.
-              Pay attention to prefixes and suffixes to understand word meanings better.
+              Test your knowledge of general science concepts with this interactive quiz covering biology, 
+              physics, astronomy, chemistry, and earth science.
             </p>
             <div className="mb-6">
               <p className="text-sm text-gray-600 mb-2">Select number of questions:</p>
@@ -186,10 +176,11 @@ const VocabularyQuiz = () => {
               >
                 <option value={10}>10 Questions</option>
                 <option value={20}>20 Questions</option>
+                <option value={30}>30 Questions</option>
               </select>
             </div>
             <p className="mb-4 text-sm text-gray-600">
-              Total words: {vocabularyData.length}
+              Total questions: {scienceData.questions.length}
               <br />
               Questions per quiz: {questionsCount}
             </p>
@@ -205,9 +196,10 @@ const VocabularyQuiz = () => {
           <Card className="text-center p-6">
             <CardContent>
               <h2 className="text-xl font-bold mb-4">Quiz Complete!</h2>
-              <p className="mb-2">Final Score: {gameState.score}</p>
+              <p className="mb-2">Final Score: {gameState.score} points</p>
+              <p className="mb-2">Percentage: {calculatePercentage()}%</p>
               <p className="mb-2">Best Streak: {gameState.bestStreak}</p>
-              <p className="mb-4">Words Completed: {gameState.usedQuestions.size}</p>
+              <p className="mb-4">Questions Completed: {gameState.usedQuestions.size}</p>
               <Button onClick={resetToInitial} className="mt-4">
                 Play Again
               </Button>
@@ -223,91 +215,62 @@ const VocabularyQuiz = () => {
           </CardHeader>
           <CardContent>
             <div className="text-center mb-6">
-              <h2 className="text-xl font-bold mb-2">{gameState.currentQuestion.word}</h2>
+              <h2 className="text-xl font-bold mb-4">{gameState.currentQuestion.question}</h2>
               
-              
-              
-              <div className="mb-4 flex justify-center gap-2">
-                <Button
-                  variant="outline"
-                  onClick={toggleHint}
-                  className="flex items-center gap-2"
-                  disabled={gameState.selectedAnswer !== null}
-                >
-                  <HelpCircle className="h-4 w-4" />
-                  {gameState.showHint ? 'Example' : 'Example'}
-                </Button>
-                <Button
-                  variant="outline"
-                  onClick={toggleWordParts}
-                  className="flex items-center gap-2"
-                  disabled={gameState.selectedAnswer !== null && !gameState.showWordParts}
-                >
-                  <HelpCircle className="h-4 w-4" />
-                  {gameState.showWordParts ? 'Word Parts' : 'Word Parts'}
-                </Button>
-                <Button
-                  variant="outline"
-                  onClick={toggleSpanish}
-                  className="flex items-center gap-2"
-                >
-                  <Globe className="h-4 w-4" />
-                  {gameState.showSpanish ? 'Spanish' : 'Spanish'}
-                </Button>
-              </div>
-
-              {gameState.showSpanish && (
-                <p className="text-gray-600 italic mb-4">Spanish: {gameState.currentQuestion.spanish}</p>
-              )}
-
-              {gameState.showHint && (
-                <div className="bg-blue-50 p-4 rounded-lg mb-4 text-sm">
-                  <p className="text-blue-800">{gameState.currentQuestion.example}</p>
+              {!gameState.showExplanation && gameState.selectedAnswer === null && (
+                <div className="mb-4 flex justify-center">
+                  <Button
+                    variant="outline"
+                    onClick={toggleExplanation}
+                    className="flex items-center gap-2"
+                    disabled={gameState.selectedAnswer !== null}
+                  >
+                    <HelpCircle className="h-4 w-4" />
+                    Show Hint
+                  </Button>
                 </div>
               )}
 
-              {gameState.showWordParts && (
-                <div className="bg-green-50 p-4 rounded-lg mb-4 text-sm">
-                  <p className="font-semibold mb-2">Word Parts:</p>
-                  <p className="text-green-800 mb-1">Prefix: {gameState.currentQuestion.prefix}</p>
-                  <p className="text-green-800 mb-1">Root: {gameState.currentQuestion.root}</p>
-                  <p className="text-green-800 mb-1">Suffix: {gameState.currentQuestion.suffix}</p>
-                  <div className="mt-2 pt-2 border-t border-green-200">
-                    <p className="text-green-800 font-medium">Combined Meaning:</p>
-                    <p className="text-green-800">{gameState.currentQuestion.meaning}</p>
-                  </div>
+              {gameState.showExplanation && gameState.selectedAnswer === null && (
+                <div className="bg-blue-50 p-4 rounded-lg mb-4 text-sm">
+                  <p className="text-blue-800 mb-2 font-medium">Explanation:</p>
+                  <p className="text-blue-800">{gameState.currentQuestion.explanation}</p>
                 </div>
               )}
             </div>
             
             <div className="grid grid-cols-1 gap-3">
-              {gameState.currentQuestion.options.map((option, index) => (
-                <Button
-                  key={index}
-                  onClick={() => handleAnswer(option)}
-                  className={`p-4 text-lg ${
-                    gameState.selectedAnswer === option
-                      ? option === gameState.currentQuestion.correct
+              {gameState.currentQuestion.options.map((option, index) => {
+                const isCorrect = option === gameState.currentQuestion.correct_answer;
+                
+                return (
+                  <Button
+                    key={index}
+                    onClick={() => handleAnswer(option)}
+                    className={`p-4 text-lg justify-start ${
+                      gameState.selectedAnswer === option
+                        ? isCorrect
+                          ? 'bg-green-500 hover:bg-green-600'
+                          : 'bg-red-500 hover:bg-red-600'
+                        : gameState.selectedAnswer && isCorrect
                         ? 'bg-green-500 hover:bg-green-600'
-                        : 'bg-red-500 hover:bg-red-600'
-                      : gameState.selectedAnswer && option === gameState.currentQuestion.correct
-                      ? 'bg-green-500 hover:bg-green-600'
-                      : ''
-                  }`}
-                  disabled={gameState.selectedAnswer !== null}
-                >
-                  {option}
-                  {gameState.selectedAnswer === option && (
-                    <span className="ml-2">
-                      {option === gameState.currentQuestion.correct ? (
-                        <Check className="h-5 w-4" />
-                      ) : (
-                        <X className="h-5 w-4" />
-                      )}
-                    </span>
-                  )}
-                </Button>
-              ))}
+                        : ''
+                    }`}
+                    disabled={gameState.selectedAnswer !== null}
+                  >
+                    {option}
+                    {gameState.selectedAnswer === option && (
+                      <span className="ml-2">
+                        {isCorrect ? (
+                          <Check className="h-5 w-4" />
+                        ) : (
+                          <X className="h-5 w-4" />
+                        )}
+                      </span>
+                    )}
+                  </Button>
+                );
+              })}
             </div>
           </CardContent>
         </Card>
@@ -331,4 +294,4 @@ const VocabularyQuiz = () => {
   );
 };
 
-export default VocabularyQuiz;
+export default ScienceQuiz;

@@ -10,7 +10,8 @@ import {
   Divide,
   Languages,
   NotebookPen,
-  Zap
+  Zap,
+  Beaker
 } from 'lucide-react'
 
 export default function Home() {
@@ -153,6 +154,23 @@ export default function Home() {
               <CardContent>
                 <p className="text-gray-600">
                   Test your knowledge of electrical principles, components, and calculations with this interactive quiz.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
+          {/* Science Quiz Section */}
+          <Link href="/science" className="transform hover:scale-105 transition-transform">
+            <Card className="hover:shadow-lg cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Beaker className="h-6 w-6 text-green-500" />
+                  General Science
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Challenge your knowledge of biology, physics, chemistry, astronomy, and earth science with this comprehensive quiz.
                 </p>
               </CardContent>
             </Card>

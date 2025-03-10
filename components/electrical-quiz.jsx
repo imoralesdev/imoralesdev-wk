@@ -96,7 +96,7 @@ const ElectricalQuiz = () => {
       score: correct ? prev.score + 10 : prev.score,
       streak: newStreak,
       bestStreak: newBestStreak,
-      showExplanation: true // Show explanation after answering
+      showExplanation: false // Changed to false to hide explanation after answering
     }));
 
     setTimeout(() => {
@@ -132,6 +132,11 @@ const ElectricalQuiz = () => {
       ...prev,
       showResult: true
     }));
+  };
+
+  const calculatePercentage = () => {
+    if (questionsCount === 0) return 0;
+    return Math.round((gameState.score / (questionsCount * 10)) * 100);
   };
 
   return (
@@ -191,7 +196,8 @@ const ElectricalQuiz = () => {
           <Card className="text-center p-6">
             <CardContent>
               <h2 className="text-xl font-bold mb-4">Quiz Complete!</h2>
-              <p className="mb-2">Final Score: {gameState.score}</p>
+              <p className="mb-2">Final Score: {gameState.score} points</p>
+              <p className="mb-2">Percentage: {calculatePercentage()}%</p>
               <p className="mb-2">Best Streak: {gameState.bestStreak}</p>
               <p className="mb-4">Questions Completed: {gameState.usedQuestions.size}</p>
               <Button onClick={resetToInitial} className="mt-4">
@@ -225,7 +231,7 @@ const ElectricalQuiz = () => {
                 </div>
               )}
 
-              {(gameState.showExplanation || gameState.selectedAnswer !== null) && (
+              {gameState.showExplanation && gameState.selectedAnswer === null && (
                 <div className="bg-blue-50 p-4 rounded-lg mb-4 text-sm">
                   <p className="text-blue-800 mb-2 font-medium">Explanation:</p>
                   <p className="text-blue-800">{gameState.currentQuestion.explanation}</p>
