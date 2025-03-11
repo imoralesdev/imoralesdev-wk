@@ -1251,6 +1251,71 @@ export const asvab = [
     "correct": "impetuous",
     "example": "Fue un acto temerario que casi lo metió en problemas.",
     "alternates": ["cautious", "prudent", "careful"]
+  },{
+    "word": "empty",
+    "spanish": "vacío",
+    "prefix": "",
+    "root": "empt (take out, from Latin)",
+    "suffix": "y (characteristic)",
+    "meaning": "Containing nothing; not filled or occupied",
+    "correct": "void",
+    "example": "La caja estaba completamente vacía. (Sin contenido)",
+    "alternates": ["full", "occupied", "inhabited"]
+  },
+  {
+    "word": "brawn",
+    "spanish": "fuerza muscular",
+    "prefix": "",
+    "root": "brawn (muscular strength, from Old French braon)",
+    "suffix": "",
+    "meaning": "Physical strength in contrast to intelligence or skill",
+    "correct": "strength",
+    "example": "Mostraba mucha fuerza muscular levantando pesas. (Fuerza física notable)",
+    "alternates": ["weakness", "frailty", "infirmity"]
+  },
+  {
+    "word": "aim",
+    "spanish": "apuntar",
+    "prefix": "",
+    "root": "aim (to direct at a target)",
+    "suffix": "",
+    "meaning": "Direct (a weapon, camera, etc.) at a target; have the intention of achieving something",
+    "correct": "train",
+    "example": "Debes apuntar con cuidado antes de disparar. (Dirigir hacia un objetivo)",
+    "alternates": ["guess", "misdirect", "ignore"]
+  },
+  {
+    "word": "friendly",
+    "spanish": "amigable",
+    "prefix": "",
+    "root": "friend (companion, Old English frēond)",
+    "suffix": "ly (characteristic of)",
+    "meaning": "Kind and pleasant; showing friendship",
+    "correct": "genial",
+    "example": "El perro era muy amigable con todos. (De trato cálido y agradable)",
+    "alternates": ["hostile", "unpleasant", "cold"]
+  },
+  {
+    "word": "benevolent",
+    "spanish": "benevolente",
+    "prefix": "bene- (good)",
+    "root": "vol (wish, from Latin velle)",
+    "suffix": "-ent (being in a state)",
+    "meaning": "Well meaning and kindly",
+    "correct": "good",
+    "example": "El rey era muy benevolente con sus súbditos. (Bondadoso)",
+    "alternates": ["malevolent", "cruel", "unkind"]
+  },
+  {
+    "word": "gauntlet",
+    "spanish": "guantelete",
+    "prefix": "",
+    "root": "gaunt (glove, from Old French gantelet)",
+    "suffix": "",
+    "meaning": "A protective glove (part of medieval armor) or any stout glove with a long loose wrist",
+    "correct": "glove",
+    "example": "El caballero se puso el guantelete antes de la batalla. (Parte de la armadura)",
+    "alternates": ["bare hand", "footwear", "helmet"]
   }
 ]
 
