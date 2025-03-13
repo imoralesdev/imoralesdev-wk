@@ -1,6 +1,6 @@
 'use client'
 
-import ConversionDrills from '../../components/conversion-drills';
+import ConversionDrills from '../../components/vocabulary-quiz-prefiix';
 import { prefixGroups } from '../../data/prefix-drills';
 
 export default function PrefixPracticePage() {

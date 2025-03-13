@@ -1316,6 +1316,115 @@ export const asvab = [
     "correct": "glove",
     "example": "El caballero se puso el guantelete antes de la batalla. (Parte de la armadura)",
     "alternates": ["bare hand", "footwear", "helmet"]
+  },{
+    "word": "buoyant",
+    "spanish": "boyante",
+    "prefix": "",
+    "root": "buoy (float)",
+    "suffix": "ant (being in a state)",
+    "meaning": "Able to float or rise to the top of a liquid or gas; cheerful or optimistic",
+    "correct": "flotable",
+    "example": "El barco es muy boyante y se mantiene a flote con facilidad.",
+    "alternates": ["sinking", "heavy", "submerged"]
+  },
+  {
+    "word": "wedge",
+    "spanish": "cuña",
+    "prefix": "",
+    "root": "wedge (tapered block)",
+    "suffix": "",
+    "meaning": "A piece of material with one thick end tapering to a thin edge, used to secure or split",
+    "correct": "squeeze",
+    "example": "Pon una cuña debajo de la puerta para que no se cierre.",
+    "alternates": ["release", "pull apart", "expand"]
+  },
+  {
+    "word": "bound",
+    "spanish": "saltar",
+    "prefix": "",
+    "root": "bind/bound (tie, but also leap)",
+    "suffix": "",
+    "meaning": "Walk or run with leaping strides; to move forward by jumping",
+    "correct": "hop",
+    "example": "El conejo dio un salto rápido hacia el arbusto.",
+    "alternates": ["crawl", "stand", "lie still"]
+  },
+  {
+    "word": "dispel",
+    "spanish": "disipar",
+    "prefix": "dis- (apart, away)",
+    "root": "pel (drive, push)",
+    "suffix": "",
+    "meaning": "Make a doubt, feeling, or belief disappear",
+    "correct": "drive off",
+    "example": "Las nuevas pruebas ayudarán a disipar cualquier sospecha.",
+    "alternates": ["welcome", "encourage", "invite"]
+  },
+  {
+    "word": "sham",
+    "spanish": "farsa",
+    "prefix": "",
+    "root": "sham (something fake or fraudulent)",
+    "suffix": "",
+    "meaning": "Something that is not what it purports to be; a false display",
+    "correct": "impostor",
+    "example": "Toda la oferta resultó ser una farsa para estafar a la gente.",
+    "alternates": ["genuine", "authentic", "real"]
+  },
+  {
+    "word": "main",
+    "spanish": "principal",
+    "prefix": "",
+    "root": "main (chief, principal)",
+    "suffix": "",
+    "meaning": "Chief in size or importance; principal",
+    "correct": "staple",
+    "example": "El arroz es un alimento principal en muchos países.",
+    "alternates": ["minor", "secondary", "optional"]
+  },
+  {
+    "word": "commuted",
+    "spanish": "desplazarse",
+    "prefix": "com- (together)",
+    "root": "mute (move, change)",
+    "suffix": "ed (past tense)",
+    "meaning": "Traveled regularly between home and work (or another place)",
+    "correct": "travel",
+    "example": "Ella se desplazaba en tren a su trabajo todos los días.",
+    "alternates": ["settled", "stayed put", "remained"]
+  },
+  {
+    "word": "quarry",
+    "spanish": "presa",
+    "prefix": "",
+    "root": "quarrel/quarrer (to square stone, related to prey in older usage)",
+    "suffix": "",
+    "meaning": "An animal pursued by a hunter; prey",
+    "correct": "prey",
+    "example": "El águila observaba desde lo alto, buscando a su presa.",
+    "alternates": ["predator", "hunter", "chaser"]
+  },
+  {
+    "word": "knead",
+    "spanish": "amasar",
+    "prefix": "",
+    "root": "knead (to work dough)",
+    "suffix": "",
+    "meaning": "Work flour or clay into dough or paste with the hands",
+    "correct": "mix",
+    "example": "Necesitas amasar la masa para que quede suave y uniforme.",
+    "alternates": ["separate", "crumble", "tear apart"]
+  },
+  {
+    "word": "modification",
+    "spanish": "modificación",
+    "prefix": "mod- (measure, change)",
+    "root": "fic (make, do)",
+    "suffix": "ation (action or process)",
+    "meaning": "The action of changing something; a change made",
+    "correct": "alteration",
+    "example": "Hicimos una pequeña modificación en el diseño final.",
+    "alternates": ["original", "fixed state", "unchanged"]
   }
 ]
 
