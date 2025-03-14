@@ -1425,6 +1425,148 @@ export const asvab = [
     "correct": "alteration",
     "example": "Hicimos una pequeña modificación en el diseño final.",
     "alternates": ["original", "fixed state", "unchanged"]
+  },{
+    "word": "maul",
+    "spanish": "despedazar",
+    "prefix": "",
+    "root": "maul (hammer/mallet from Old French mail)",
+    "suffix": "",
+    "meaning": "Wound a person or animal by scratching and tearing",
+    "correct": "mangle",
+    "example": "Un oso puede despedazar a su presa si se siente amenazado.",
+    "alternates": ["heal", "repair", "comfort"]
+  },
+  {
+    "word": "helm",
+    "spanish": "timón",
+    "prefix": "",
+    "root": "helm (steering apparatus of a ship, Old English helma)",
+    "suffix": "",
+    "meaning": "A tiller or wheel and any associated equipment for steering a ship or boat",
+    "correct": "steering wheel",
+    "example": "El capitán tomó el timón para dirigir el barco hacia el muelle.",
+    "alternates": ["anchor", "sail", "deck"]
+  },
+  {
+    "word": "taut",
+    "spanish": "tenso",
+    "prefix": "",
+    "root": "taut (pulled tight, possibly from Old Norse)",
+    "suffix": "",
+    "meaning": "Stretched or pulled tight; not slack",
+    "correct": "tight",
+    "example": "La cuerda estaba tan tensa que parecía a punto de romperse.",
+    "alternates": ["loose", "slack", "baggy"]
+  },
+  {
+    "word": "malcontent",
+    "spanish": "descontento",
+    "prefix": "mal- (bad)",
+    "root": "content (satisfied)",
+    "suffix": "",
+    "meaning": "A person who is dissatisfied and rebellious",
+    "correct": "dissatisfied",
+    "example": "El empleado descontento protestó ante la gerencia por su salario.",
+    "alternates": ["content", "happy", "satisfied"]
+  },
+  {
+    "word": "malign",
+    "spanish": "difamar",
+    "prefix": "mal- (bad)",
+    "root": "lign (from Latin malignus, evil in nature)",
+    "suffix": "",
+    "meaning": "Speak harmful untruths about; slander",
+    "correct": "slander",
+    "example": "No se debe difamar a otros sin fundamentos reales.",
+    "alternates": ["praise", "commend", "laud"]
+  },
+  {
+    "word": "menagerie",
+    "spanish": "colección de animales (exóticos)",
+    "prefix": "",
+    "root": "menage (household) → menagerie (collection of wild animals)",
+    "suffix": "",
+    "meaning": "A collection of wild animals kept in captivity for exhibition",
+    "correct": "wild animals",
+    "example": "El circo mantenía una menagerie con tigres y elefantes.",
+    "alternates": ["house pets", "domestic animals", "farm animals"]
+  },
+  {
+    "word": "abdicate",
+    "spanish": "abdicar",
+    "prefix": "ab- (away)",
+    "root": "dic (speak, proclaim)",
+    "suffix": "ate (to make)",
+    "meaning": "Renounce one's throne or fail to fulfill a responsibility",
+    "correct": "resign",
+    "example": "El rey decidió abdicar y ceder el trono a su hija.",
+    "alternates": ["assume power", "remain", "hold on"]
+  },
+  {
+    "word": "intrinsic",
+    "spanish": "intrínseco",
+    "prefix": "intra- (within)",
+    "root": "sic (from Latin ‘sequi’, to follow) [illustrative]",
+    "suffix": "ic (related to)",
+    "meaning": "Belonging naturally; essential",
+    "correct": "essential",
+    "example": "El valor intrínseco de la obra de arte es incalculable.",
+    "alternates": ["extrinsic", "trivial", "unimportant"]
+  },
+  {
+    "word": "slander",
+    "spanish": "calumniar",
+    "prefix": "",
+    "root": "slander (from Old French esclandre, scandal)",
+    "suffix": "",
+    "meaning": "Make false and damaging statements about someone",
+    "correct": "lie viciously or defamation",
+    "example": "Podrían demandarte por calumniar a esa persona sin pruebas.",
+    "alternates": ["praise", "compliment", "protect reputation"]
+  },
+  {
+    "word": "level headed",
+    "spanish": "sensato",
+    "prefix": "",
+    "root": "level (flat) + headed (possessing calm judgment)",
+    "suffix": "",
+    "meaning": "Calm and sensible; having good judgment",
+    "correct": "sensible",
+    "example": "En situaciones de crisis, es vital mantenerse sensato y tomar decisiones lógicas.",
+    "alternates": ["irrational", "impulsive", "hot-headed"]
+  },
+  {
+    "word": "erosion",
+    "spanish": "erosión",
+    "prefix": "e- (out)",
+    "root": "rodere (gnaw, from Latin erodere)",
+    "suffix": "ion (action or process)",
+    "meaning": "The process of being eroded by wind, water, or other natural agents",
+    "correct": "wearing away of soil",
+    "example": "La erosión del suelo se agravó por la deforestación.",
+    "alternates": ["accumulation", "deposit", "preservation"]
+  },
+  {
+    "word": "hoist",
+    "spanish": "izar",
+    "prefix": "",
+    "root": "hoist (raise, from Middle English hoise)",
+    "suffix": "",
+    "meaning": "Raise (something) by means of ropes and pulleys",
+    "correct": "lift",
+    "example": "Necesitarás ayuda para izar el pesado equipaje al segundo piso.",
+    "alternates": ["lower", "drop", "push down"]
+  },
+  {
+    "word": "replenish",
+    "spanish": "reabastecer",
+    "prefix": "re- (again)",
+    "root": "plen (full)",
+    "suffix": "ish (to make)",
+    "meaning": "Fill (something) up again",
+    "correct": "restock",
+    "example": "Hay que reabastecer la despensa antes de que lleguen los invitados.",
+    "alternates": ["use up", "deplete", "exhaust"]
   }
 ]
 
