@@ -1567,6 +1567,60 @@ export const asvab = [
     "correct": "restock",
     "example": "Hay que reabastecer la despensa antes de que lleguen los invitados.",
     "alternates": ["use up", "deplete", "exhaust"]
+  },{
+    "word": "saga",
+    "spanish": "saga",
+    "prefix": "",
+    "root": "saga (Old Norse for ‘long story’)",
+    "suffix": "",
+    "meaning": "A long story of heroic achievement",
+    "correct": "heroic achievement",
+    "example": "La saga del héroe relató sus múltiples hazañas. (Historia épica)",
+    "alternates": ["short tale", "common anecdote", "brief summary"]
+  },
+  {
+    "word": "quibble",
+    "spanish": "discutir por pequeñeces",
+    "prefix": "",
+    "root": "quibble (to argue or raise objections about trivial matters)",
+    "suffix": "",
+    "meaning": "Argue or raise objections about a minor or trivial matter",
+    "correct": "argue or argument",
+    "example": "A menudo le gusta discutir por pequeñeces en las reuniones. (Pequeñas objeciones)",
+    "alternates": ["agree", "accept", "concede"]
+  },
+  {
+    "word": "flatbbergasted",
+    "spanish": "estupefacto",
+    "prefix": "",
+    "root": "flabbergast (obsolete origin, meaning to astonish)",
+    "suffix": "",
+    "meaning": "Greatly surprised or astonished; shocked into speechlessness",
+    "correct": "dumbfounded",
+    "example": "Se quedó estupefacto al ver el resultado de la lotería. (Totalmente sorprendido)",
+    "alternates": ["unimpressed", "indifferent", "unaffected"]
+  },
+  {
+    "word": "gaunt",
+    "spanish": "demacrado",
+    "prefix": "",
+    "root": "gaunt (thin, haggard)",
+    "suffix": "",
+    "meaning": "Extremely thin and bony, especially from hunger or suffering",
+    "correct": "bony or boney",
+    "example": "Su rostro estaba demacrado tras varios días sin comer bien. (Muy delgado)",
+    "alternates": ["well-fed", "robust", "healthy"]
+  },
+  {
+    "word": "stress",
+    "spanish": "acento",
+    "prefix": "",
+    "root": "stress (emphasis, from Middle English stresse)",
+    "suffix": "",
+    "meaning": "Emphasis placed on a syllable of a word; also mental or emotional strain",
+    "correct": "accent",
+    "example": "En español, el acento suele recaer en la penúltima sílaba si no hay tilde. (Énfasis)",
+    "alternates": ["whisper", "soften", "de-emphasize"]
   }
 ]
 
