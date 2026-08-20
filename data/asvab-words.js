@@ -61,20 +61,20 @@ export const asvab = [
     "root": "plete (fill, from 'plere')",
     "suffix": "-ed (past tense)",
     "meaning": "Used up the supply or resources",
-    "correct": "exhausted",
+    "correct": "drained",
     "example": "Se sentía totalmente agotado después de correr el maratón. (Sin energías)",
-    "alternates": ["full", "replete", "energized"]
+    "alternates": ["fulfill", "providence", "overflowing"]
   },
   {
     "word": "green",
-    "spanish": "verde",
+    "spanish": "inexperto",
     "prefix": "",
     "root": "green (color, also metaphorically for inexperience)",
     "suffix": "",
     "meaning": "Showing inexperience or immaturity",
-    "correct": "immature",
+    "correct": "little experience",
     "example": "Es muy verde en su nuevo trabajo. (Inexperto o inmaduro)",
-    "alternates": ["experienced", "mature", "professional"]
+    "alternates": ["experienced", "decrease", "ban"]
   },
   {
     "word": "dew",
@@ -96,7 +96,7 @@ export const asvab = [
     "meaning": "Clever, shrewd, and cautious",
     "correct": "shrewd",
     "example": "Era muy astuto a la hora de negociar. (Perspicaz e inteligente)",
-    "alternates": ["naive", "gullible", "clueless"]
+    "alternates": ["impulsive", "status", "adjacency"]
   },
   {
     "word": "gaudy",
@@ -127,9 +127,9 @@ export const asvab = [
     "root": "crisy/krinein (to judge, separate)",
     "suffix": "",
     "meaning": "The practice of claiming to have moral standards but not conforming to them",
-    "correct": "pretense",
+    "correct": "deceitfulness",
     "example": "La hipocresía es mal vista porque no demuestra honestidad. (Fingir valores o actitudes)",
-    "alternates": ["honesty", "sincerity", "integrity"]
+    "alternates": ["fair", "open", "forgetful"]
   },
   {
     "word": "nimble",
@@ -151,7 +151,7 @@ export const asvab = [
     "meaning": "A temporary prohibition of an activity",
     "correct": "suspension",
     "example": "Se impuso una moratoria a la caza de ballenas. (Suspensión temporal)",
-    "alternates": ["continuation", "progress", "resumption"]
+    "alternates": ["continuation", "discouraged", "morgue"]
   },
   {
     "word": "polarize",
@@ -162,7 +162,7 @@ export const asvab = [
     "meaning": "Cause to divide into two sharply contrasting groups",
     "correct": "divide",
     "example": "El debate político polarizó a la comunidad. (Dividir en bandos)",
-    "alternates": ["unite", "bring together", "blend"]
+    "alternates": ["small", "cold", "fortune"]
   },
   {
     "word": "adage",
@@ -172,7 +172,7 @@ export const asvab = [
     "suffix": "",
     "meaning": "A proverb or short statement expressing a general truth",
     "correct": "proverb or aphorism",
-    "example": "Hay un proverbio que dice: ‘A quien madruga, Dios le ayuda.’ (Sabiduría popular)",
+    "example": "Hay un proverbio que dice: 'A quien madruga, Dios le ayuda.' (Sabiduría popular)",
     "alternates": ["falsehood", "fiction", "myth"]
   },
   {
@@ -245,7 +245,7 @@ export const asvab = [
     "word": "jeopardy",
     "spanish": "peligro",
     "prefix": "jeo- (from jeu, game)",
-    "root": "parti (division, from French ‘jeu parti’)",
+    "root": "parti (division, from French 'jeu parti')",
     "suffix": "",
     "meaning": "Danger of loss, harm, or failure",
     "correct": "danger or trouble",
@@ -273,8 +273,7 @@ export const asvab = [
     "correct": "impede",
     "example": "Tuvieron que detener la construcción por falta de permisos. (Interrumpir el progreso)",
     "alternates": ["advance", "continue", "proceed"]
-  },
-  {
+  },{
     "word": "chivalrous",
     "spanish": "caballeroso",
     "prefix": "chivalr- (knight, from French chevalier)",
@@ -344,7 +343,7 @@ export const asvab = [
     "word": "chute",
     "spanish": "tolva",
     "prefix": "",
-    "root": "chute (fall, from French ‘chute’)",
+    "root": "chute (fall, from French 'chute')",
     "suffix": "",
     "meaning": "A sloping channel or slide for conveying things to a lower level",
     "correct": "funnel",
@@ -399,7 +398,7 @@ export const asvab = [
     "word": "sullen",
     "spanish": "hosco",
     "prefix": "",
-    "root": "sol (alone) > sull (middle english, morose)",
+    "root": "sol (alone) > sull (Middle English, morose)",
     "suffix": "",
     "meaning": "Bad-tempered and gloomy",
     "correct": "morose",
@@ -432,7 +431,7 @@ export const asvab = [
     "word": "probe",
     "spanish": "investigar",
     "prefix": "pro- (forth)",
-    "root": "ba (variant of ‘probe’ from Latin probare, to test)",
+    "root": "ba (variant of 'probe' from Latin probare, to test)",
     "suffix": "",
     "meaning": "Physically explore or examine; investigate thoroughly",
     "correct": "examine or study",
@@ -449,17 +448,6 @@ export const asvab = [
     "correct": "gorge",
     "example": "Hay un abismo enorme entre las dos montañas. (Gran hendidura)",
     "alternates": ["plain", "field", "plateau"]
-  },
-  {
-    "word": "hypocrisy",
-    "spanish": "hipocresía",
-    "prefix": "hypo- (under)",
-    "root": "crisy/krinein (to judge)",
-    "suffix": "",
-    "meaning": "Pretending to have virtues or moral beliefs one does not truly possess",
-    "correct": "pretense",
-    "example": "La hipocresía se ve en quien dice amar la honestidad pero miente. (Fingimiento)",
-    "alternates": ["transparency", "sincerity", "loyalty"]
   },
   {
     "word": "grotto",
@@ -498,12 +486,12 @@ export const asvab = [
     "word": "yarn",
     "spanish": "relato",
     "prefix": "",
-    "root": "yarn (thread, also used for ‘tale’)",
+    "root": "yarn (thread, also used for 'tale')",
     "suffix": "",
     "meaning": "A long or rambling story",
-    "correct": "tale",
+    "correct": "a tale",
     "example": "Nos contó un largo relato sobre sus aventuras en el mar. (Historia larga)",
-    "alternates": ["fact", "reality", "truth"]
+    "alternates": ["a puzzle", "a debt", "an entrée"]
   },
   {
     "word": "assignment",
@@ -523,9 +511,9 @@ export const asvab = [
     "root": "ion (act or condition)",
     "suffix": "",
     "meaning": "A small, organized, dissenting group within a larger one",
-    "correct": "unite minority",
+    "correct": "group",
     "example": "Una facción del partido no estaba de acuerdo con la decisión. (Grupo disidente)",
-    "alternates": ["unity", "majority", "collective"]
+    "alternates": ["math problem", "untruth", "majority"]
   },
   {
     "word": "cub",
@@ -559,8 +547,7 @@ export const asvab = [
     "correct": "in every part",
     "example": "Hubo lluvia en todo el país durante el fin de semana. (Por todas partes)",
     "alternates": ["partially", "locally", "barely"]
-  },
-  {
+  },{
     "word": "jetty",
     "spanish": "malecón",
     "prefix": "",
@@ -611,9 +598,9 @@ export const asvab = [
     "root": "lud (play, trick, from ludere)",
     "suffix": "",
     "meaning": "Suggest or call attention to indirectly",
-    "correct": "refer",
+    "correct": "infer",
     "example": "Quiso aludir al tema sin decirlo directamente. (Mencionar de forma indirecta)",
-    "alternates": ["declare", "expose", "state plainly"]
+    "alternates": ["explicit", "resent", "dwelling"]
   },
   {
     "word": "murky",
@@ -696,7 +683,7 @@ export const asvab = [
     "word": "adroit",
     "spanish": "hábil",
     "prefix": "a- (to)",
-    "root": "droit (right, from French ‘dextre’)",
+    "root": "droit (right, from French 'dextre')",
     "suffix": "",
     "meaning": "Clever or skillful in using the hands or mind",
     "correct": "skillful",
@@ -776,9 +763,9 @@ export const asvab = [
     "root": "ainos (tale, story, Greek)",
     "suffix": "",
     "meaning": "A person or thing that is mysterious, puzzling, or difficult to understand",
-    "correct": "puzzle",
+    "correct": "problem",
     "example": "El paradero del tesoro sigue siendo un enigma. (Misterio difícil de resolver)",
-    "alternates": ["clarity", "obviousness", "simplicity"]
+    "alternates": ["secure", "accelerate", "delight"]
   },
   {
     "word": "reproduction",
@@ -798,9 +785,9 @@ export const asvab = [
     "root": "lect (choose, gather)",
     "suffix": "ic (related to)",
     "meaning": "Deriving ideas, style, or taste from a broad and diverse range of sources",
-    "correct": "various",
+    "correct": "diverse",
     "example": "Su gusto musical es bastante ecléctico. (Mezcla de estilos)",
-    "alternates": ["uniform", "homogeneous", "limited"]
+    "alternates": ["eccentric", "ejection", "homogenous"]
   },
   {
     "word": "writhe",
@@ -809,9 +796,9 @@ export const asvab = [
     "root": "writh (twist, from Old English)",
     "suffix": "e (verb form)",
     "meaning": "Make continual twisting movements of the body",
-    "correct": "squirm",
+    "correct": "contort",
     "example": "El atleta comenzó a retorcerse del dolor tras la caída. (Moverse con contorsión)",
-    "alternates": ["remain still", "stay put", "freeze"]
+    "alternates": ["ghost", "affliction", "pain"]
   },
   {
     "word": "sequester",
@@ -820,9 +807,9 @@ export const asvab = [
     "root": "quester (seek, from Latin quaerere)",
     "suffix": "",
     "meaning": "Isolate or hide away",
-    "correct": "isolate",
+    "correct": "seclude",
     "example": "El jurado fue aislado en un hotel hasta el fin del juicio. (Separado de los demás)",
-    "alternates": ["merge", "include", "unite"]
+    "alternates": ["monthly", "individual", "business"]
   },
   {
     "word": "diminish",
@@ -834,8 +821,7 @@ export const asvab = [
     "correct": "slump",
     "example": "La producción empezó a disminuir con la recesión. (Bajar en cantidad)",
     "alternates": ["increase", "expand", "rise"]
-  },
-  {
+  },{
     "word": "messy",
     "spanish": "desordenado",
     "prefix": "",
@@ -845,17 +831,6 @@ export const asvab = [
     "correct": "untidy",
     "example": "Su habitación estaba muy desordenada. (Caótica)",
     "alternates": ["orderly", "tidy", "spotless"]
-  },
-  {
-    "word": "boast",
-    "spanish": "jactarse",
-    "prefix": "",
-    "root": "boste (brag)",
-    "suffix": "",
-    "meaning": "To speak of with excessive pride",
-    "correct": "brag",
-    "example": "Le gusta jactarse de sus logros académicos. (Alardear de forma exagerada)",
-    "alternates": ["downplay", "disguise", "remain silent"]
   },
   {
     "word": "cacophonous",
@@ -874,7 +849,7 @@ export const asvab = [
     "prefix": "",
     "root": "bungle (carry out a task clumsily)",
     "suffix": "ing (action)",
-    "meaning": "Carrying out (a task) clumsily or incompetently",
+    "meaning": "Carrying out a task clumsily or incompetently",
     "correct": "inept",
     "example": "Fue un trabajo chapucero que tuvieron que rehacer. (Mal hecho, con torpeza)",
     "alternates": ["professional", "competent", "skilled"]
@@ -886,9 +861,9 @@ export const asvab = [
     "root": "part (divide, protect)",
     "suffix": "",
     "meaning": "A defensive wall of a castle or walled city",
-    "correct": "fortification",
+    "correct": "bulwark",
     "example": "La muralla protegía la ciudad de invasiones. (Estructura defensiva)",
-    "alternates": ["gateway", "open access", "corridor"]
+    "alternates": ["interrogation", "quaked", "dissoluble"]
   },
   {
     "word": "wan",
@@ -897,9 +872,9 @@ export const asvab = [
     "root": "wan (pale, lacking color)",
     "suffix": "",
     "meaning": "Pale and giving the impression of illness or exhaustion",
-    "correct": "pale",
+    "correct": "pallid or pale",
     "example": "Estaba pálido después de pasar la noche sin dormir. (Falta de color)",
-    "alternates": ["rosy", "vibrant", "glowing"]
+    "alternates": ["small amount", "largely", "completely"]
   },
   {
     "word": "broach",
@@ -907,10 +882,10 @@ export const asvab = [
     "prefix": "",
     "root": "broach (pierce, open up)",
     "suffix": "",
-    "meaning": "Raise (a sensitive or difficult subject) for discussion",
-    "correct": "mention",
+    "meaning": "Raise a sensitive or difficult subject for discussion",
+    "correct": "introduce",
     "example": "Decidió plantear el tema de los gastos en la reunión. (Sacar a colación)",
-    "alternates": ["conceal", "hide", "bury"]
+    "alternates": ["ignore", "explain", "vaunt"]
   },
   {
     "word": "centenary",
@@ -941,7 +916,7 @@ export const asvab = [
     "root": "habit (live, dwell)",
     "suffix": "",
     "meaning": "Live in or occupy a place",
-    "correct": "line in (live in)",
+    "correct": "live in",
     "example": "Muchos animales habitan en la selva amazónica. (Vivir en un lugar)",
     "alternates": ["abandon", "evict", "relocate"]
   },
@@ -1028,7 +1003,7 @@ export const asvab = [
     "prefix": "im- (negative)",
     "root": "pair (worse, from Latin pejor)",
     "suffix": "",
-    "meaning": "Weaken or damage something (especially a function or faculty)",
+    "meaning": "Weaken or damage something, especially a function or faculty",
     "correct": "weaken",
     "example": "Fumar puede perjudicar la salud gravemente. (Debilitar o dañar)",
     "alternates": ["strengthen", "improve", "enhance"]
@@ -1067,17 +1042,6 @@ export const asvab = [
     "alternates": ["temporary", "short-lived", "fleeting"]
   },
   {
-    "word": "chide",
-    "spanish": "reñir",
-    "prefix": "",
-    "root": "chide (scold)",
-    "suffix": "",
-    "meaning": "Express disapproval of; scold",
-    "correct": "scold",
-    "example": "La madre tuvo que reñir al niño por desobediente. (Regañar)",
-    "alternates": ["praise", "hug", "congratulate"]
-  },
-  {
     "word": "variable",
     "spanish": "variable",
     "prefix": "vari- (change)",
@@ -1095,7 +1059,7 @@ export const asvab = [
     "root": "tra (cross)",
     "suffix": "ate (to make)",
     "meaning": "Succeed in forcing a way into or through",
-    "correct": "infriltrate",
+    "correct": "infiltrate",
     "example": "Lograron infiltrarse en la organización enemiga. (Entrar secretamente)",
     "alternates": ["block", "stop", "remain outside"]
   },
@@ -1105,7 +1069,7 @@ export const asvab = [
     "prefix": "",
     "root": "bandy (to throw or pass to and fro)",
     "suffix": "ed (past tense)",
-    "meaning": "Pass on or discuss (an idea or rumor) in a casual or uninformed way",
+    "meaning": "Pass on or discuss an idea or rumor in a casual or uninformed way",
     "correct": "exchange",
     "example": "Se intercambiaron muchas ideas en la reunión. (Comentadas de forma informal)",
     "alternates": ["withhold", "hide", "suppress"]
@@ -1114,7 +1078,7 @@ export const asvab = [
     "word": "solemn",
     "spanish": "solemne",
     "prefix": "sol- (alone, entire)",
-    "root": "emn (from Latin ‘sollemnis’, ritual)",
+    "root": "emn (from Latin 'sollemnis', ritual)",
     "suffix": "",
     "meaning": "Formal and dignified; serious",
     "correct": "ceremonious",
@@ -1131,8 +1095,7 @@ export const asvab = [
     "correct": "spoil",
     "example": "A ella le encanta mimar a sus hijos con regalos. (Dar excesivos gustos)",
     "alternates": ["neglect", "repress", "ignore"]
-  },
-  {
+  },{
     "word": "bungalow",
     "spanish": "bungaló",
     "prefix": "",
@@ -1142,7 +1105,8 @@ export const asvab = [
     "correct": "cabin",
     "example": "Alquilamos un bungaló cerca de la playa. (Vivienda de una planta)",
     "alternates": ["skyscraper", "mansion", "apartment"]
-  },{
+  },
+  {
     "word": "sham",
     "spanish": "farsa",
     "prefix": "",
@@ -1163,17 +1127,6 @@ export const asvab = [
     "correct": "recognize",
     "example": "El profesor pidió reconocer el esfuerzo de todos los estudiantes.",
     "alternates": ["deny", "ignore", "overlook"]
-  },
-  {
-    "word": "allude",
-    "spanish": "aludir",
-    "prefix": "ad- (to)",
-    "root": "lud (play, trick, from Latin ludere)",
-    "suffix": "",
-    "meaning": "Suggest or call attention to indirectly; hint at",
-    "correct": "refer",
-    "example": "Trató de aludir al problema sin mencionarlo abiertamente.",
-    "alternates": ["declare", "state plainly", "explain"]
   },
   {
     "word": "knead",
@@ -1239,7 +1192,7 @@ export const asvab = [
     "meaning": "Regard with disgust and hatred",
     "correct": "detest",
     "example": "Ella aborrece la crueldad hacia los animales.",
-    "alternates": ["admire", "cherish", "love"]
+    "alternates": ["significant", "unruly", "favor"]
   },
   {
     "word": "rash",
@@ -1251,7 +1204,8 @@ export const asvab = [
     "correct": "impetuous",
     "example": "Fue un acto temerario que casi lo metió en problemas.",
     "alternates": ["cautious", "prudent", "careful"]
-  },{
+  },
+  {
     "word": "empty",
     "spanish": "vacío",
     "prefix": "",
@@ -1279,7 +1233,7 @@ export const asvab = [
     "prefix": "",
     "root": "aim (to direct at a target)",
     "suffix": "",
-    "meaning": "Direct (a weapon, camera, etc.) at a target; have the intention of achieving something",
+    "meaning": "Direct a weapon, camera, etc. at a target; have the intention of achieving something",
     "correct": "train",
     "example": "Debes apuntar con cuidado antes de disparar. (Dirigir hacia un objetivo)",
     "alternates": ["guess", "misdirect", "ignore"]
@@ -1312,11 +1266,12 @@ export const asvab = [
     "prefix": "",
     "root": "gaunt (glove, from Old French gantelet)",
     "suffix": "",
-    "meaning": "A protective glove (part of medieval armor) or any stout glove with a long loose wrist",
+    "meaning": "A protective glove, part of medieval armor, or any stout glove with a long loose wrist",
     "correct": "glove",
     "example": "El caballero se puso el guantelete antes de la batalla. (Parte de la armadura)",
     "alternates": ["bare hand", "footwear", "helmet"]
-  },{
+  },
+  {
     "word": "buoyant",
     "spanish": "boyante",
     "prefix": "",
@@ -1361,17 +1316,6 @@ export const asvab = [
     "alternates": ["welcome", "encourage", "invite"]
   },
   {
-    "word": "sham",
-    "spanish": "farsa",
-    "prefix": "",
-    "root": "sham (something fake or fraudulent)",
-    "suffix": "",
-    "meaning": "Something that is not what it purports to be; a false display",
-    "correct": "impostor",
-    "example": "Toda la oferta resultó ser una farsa para estafar a la gente.",
-    "alternates": ["genuine", "authentic", "real"]
-  },
-  {
     "word": "main",
     "spanish": "principal",
     "prefix": "",
@@ -1388,7 +1332,7 @@ export const asvab = [
     "prefix": "com- (together)",
     "root": "mute (move, change)",
     "suffix": "ed (past tense)",
-    "meaning": "Traveled regularly between home and work (or another place)",
+    "meaning": "Traveled regularly between home and work or another place",
     "correct": "travel",
     "example": "Ella se desplazaba en tren a su trabajo todos los días.",
     "alternates": ["settled", "stayed put", "remained"]
@@ -1400,20 +1344,9 @@ export const asvab = [
     "root": "quarrel/quarrer (to square stone, related to prey in older usage)",
     "suffix": "",
     "meaning": "An animal pursued by a hunter; prey",
-    "correct": "prey",
+    "correct": "target",
     "example": "El águila observaba desde lo alto, buscando a su presa.",
-    "alternates": ["predator", "hunter", "chaser"]
-  },
-  {
-    "word": "knead",
-    "spanish": "amasar",
-    "prefix": "",
-    "root": "knead (to work dough)",
-    "suffix": "",
-    "meaning": "Work flour or clay into dough or paste with the hands",
-    "correct": "mix",
-    "example": "Necesitas amasar la masa para que quede suave y uniforme.",
-    "alternates": ["separate", "crumble", "tear apart"]
+    "alternates": ["partner", "division", "sneering"]
   },
   {
     "word": "modification",
@@ -1425,7 +1358,8 @@ export const asvab = [
     "correct": "alteration",
     "example": "Hicimos una pequeña modificación en el diseño final.",
     "alternates": ["original", "fixed state", "unchanged"]
-  },{
+  },
+  {
     "word": "maul",
     "spanish": "despedazar",
     "prefix": "",
@@ -1435,8 +1369,7 @@ export const asvab = [
     "correct": "mangle",
     "example": "Un oso puede despedazar a su presa si se siente amenazado.",
     "alternates": ["heal", "repair", "comfort"]
-  },
-  {
+  },{
     "word": "helm",
     "spanish": "timón",
     "prefix": "",
@@ -1506,7 +1439,7 @@ export const asvab = [
     "word": "intrinsic",
     "spanish": "intrínseco",
     "prefix": "intra- (within)",
-    "root": "sic (from Latin ‘sequi’, to follow) [illustrative]",
+    "root": "sic (from Latin 'sequi', to follow) [illustrative]",
     "suffix": "ic (related to)",
     "meaning": "Belonging naturally; essential",
     "correct": "essential",
@@ -1552,7 +1485,7 @@ export const asvab = [
     "prefix": "",
     "root": "hoist (raise, from Middle English hoise)",
     "suffix": "",
-    "meaning": "Raise (something) by means of ropes and pulleys",
+    "meaning": "Raise something by means of ropes and pulleys",
     "correct": "lift",
     "example": "Necesitarás ayuda para izar el pesado equipaje al segundo piso.",
     "alternates": ["lower", "drop", "push down"]
@@ -1563,15 +1496,16 @@ export const asvab = [
     "prefix": "re- (again)",
     "root": "plen (full)",
     "suffix": "ish (to make)",
-    "meaning": "Fill (something) up again",
+    "meaning": "Fill something up again",
     "correct": "restock",
     "example": "Hay que reabastecer la despensa antes de que lleguen los invitados.",
     "alternates": ["use up", "deplete", "exhaust"]
-  },{
+  },
+  {
     "word": "saga",
     "spanish": "saga",
     "prefix": "",
-    "root": "saga (Old Norse for ‘long story’)",
+    "root": "saga (Old Norse for 'long story')",
     "suffix": "",
     "meaning": "A long story of heroic achievement",
     "correct": "heroic achievement",
@@ -1590,26 +1524,15 @@ export const asvab = [
     "alternates": ["agree", "accept", "concede"]
   },
   {
-    "word": "flatbbergasted",
+    "word": "flabbergasted",
     "spanish": "estupefacto",
     "prefix": "",
     "root": "flabbergast (obsolete origin, meaning to astonish)",
-    "suffix": "",
+    "suffix": "-ed",
     "meaning": "Greatly surprised or astonished; shocked into speechlessness",
     "correct": "dumbfounded",
     "example": "Se quedó estupefacto al ver el resultado de la lotería. (Totalmente sorprendido)",
     "alternates": ["unimpressed", "indifferent", "unaffected"]
-  },
-  {
-    "word": "gaunt",
-    "spanish": "demacrado",
-    "prefix": "",
-    "root": "gaunt (thin, haggard)",
-    "suffix": "",
-    "meaning": "Extremely thin and bony, especially from hunger or suffering",
-    "correct": "bony or boney",
-    "example": "Su rostro estaba demacrado tras varios días sin comer bien. (Muy delgado)",
-    "alternates": ["well-fed", "robust", "healthy"]
   },
   {
     "word": "stress",
@@ -1621,6 +1544,1200 @@ export const asvab = [
     "correct": "accent",
     "example": "En español, el acento suele recaer en la penúltima sílaba si no hay tilde. (Énfasis)",
     "alternates": ["whisper", "soften", "de-emphasize"]
+  },{
+    "word": "advocate",
+    "spanish": "defender / apoyar",
+    "prefix": "ad- (toward)",
+    "root": "voc (voice, call)",
+    "suffix": "-ate",
+    "meaning": "To publicly support or defend a cause, policy, or idea",
+    "correct": "uphold",
+    "example": "The organization advocates for better educational opportunities. (La organización apoya mejores oportunidades educativas)",
+    "alternates": ["obvious", "criticize", "diminish"]
+  },
+  {
+    "word": "inept",
+    "spanish": "inepto / torpe",
+    "prefix": "in- (not)",
+    "root": "ept (fit, suitable)",
+    "suffix": "",
+    "meaning": "Having little skill or ability; clumsy or incompetent",
+    "correct": "awkward",
+    "example": "He was inept at repairing the complicated machine. (Era torpe reparando la máquina complicada)",
+    "alternates": ["graceful", "lesser", "refresh"]
+  },
+  {
+    "word": "proximity",
+    "spanish": "proximidad",
+    "prefix": "proxim- (near)",
+    "root": "proxim (nearest)",
+    "suffix": "-ity (state or condition)",
+    "meaning": "Nearness in space, time, or relationship",
+    "correct": "closeness",
+    "example": "The proximity of the school to the house makes walking easy. (La cercanía de la escuela facilita caminar)",
+    "alternates": ["distance", "revitalize", "stopgap"]
+  },
+  {
+    "word": "communique",
+    "spanish": "comunicado",
+    "prefix": "com- (together)",
+    "root": "communic (share, communicate)",
+    "suffix": "",
+    "meaning": "An official announcement or statement, especially to the media",
+    "correct": "bulletin",
+    "example": "The headquarters issued a communique regarding the new policy. (El cuartel general emitió un comunicado)",
+    "alternates": ["quietness", "charge", "assault"]
+  },
+  {
+    "word": "scornful",
+    "spanish": "desdeñoso",
+    "prefix": "",
+    "root": "scorn (contempt)",
+    "suffix": "-ful (full of)",
+    "meaning": "Feeling or expressing contempt or disrespect",
+    "correct": "contemptuous",
+    "example": "She gave a scornful response to the suggestion. (Respondió con desprecio a la sugerencia)",
+    "alternates": ["adore", "contiguous", "shrewd"]
+  },
+  {
+    "word": "brattle",
+    "spanish": "traquetear / repiquetear",
+    "prefix": "",
+    "root": "brattle (rattling sound)",
+    "suffix": "",
+    "meaning": "To make a rapid rattling or clattering sound",
+    "correct": "clack",
+    "example": "The loose equipment began to brattle inside the vehicle. (El equipo suelto comenzó a traquetear)",
+    "alternates": ["dull", "quietness", "decorate"]
+  },
+  {
+    "word": "obsess",
+    "spanish": "obsesionar",
+    "prefix": "ob- (against)",
+    "root": "sess (sit)",
+    "suffix": "",
+    "meaning": "To occupy someone's thoughts continually and excessively",
+    "correct": "engross",
+    "example": "The difficult problem began to obsess him. (El problema difícil comenzó a obsesionarlo)",
+    "alternates": ["diminish", "diverse", "indifferent"]
+  },
+  {
+    "word": "elusive",
+    "spanish": "elusivo / difícil de atrapar",
+    "prefix": "e- (out, away)",
+    "root": "lus (play, escape)",
+    "suffix": "-ive",
+    "meaning": "Difficult to find, catch, achieve, or understand",
+    "correct": "fugitive",
+    "example": "The elusive suspect avoided capture for several days. (El sospechoso difícil de atrapar evitó ser capturado)",
+    "alternates": ["rough", "slippery", "pollute"]
+  },
+  {
+    "word": "plethora",
+    "spanish": "abundancia / exceso",
+    "prefix": "",
+    "root": "pleth (fullness)",
+    "suffix": "",
+    "meaning": "A very large or excessive amount of something",
+    "correct": "surplus",
+    "example": "The library offers a plethora of study resources. (La biblioteca ofrece una abundancia de recursos)",
+    "alternates": ["meager", "nurture", "varied"]
+  },
+  {
+    "word": "transition",
+    "spanish": "transición",
+    "prefix": "trans- (across, beyond)",
+    "root": "it (go)",
+    "suffix": "-ion",
+    "meaning": "The process of changing from one state, condition, or stage to another",
+    "correct": "transformation",
+    "example": "The transition from military to civilian life can require planning. (La transición puede requerir planificación)",
+    "alternates": ["stationary", "extract", "underscore"]
+  },
+  {
+    "word": "query",
+    "spanish": "consulta / pregunta",
+    "prefix": "",
+    "root": "quer (ask, seek)",
+    "suffix": "",
+    "meaning": "A question, especially one asking for information",
+    "correct": "inquiry",
+    "example": "The customer submitted a query about the new procedure. (El cliente presentó una consulta)",
+    "alternates": ["answer", "dogma", "target"]
+  },
+  {
+    "word": "frolic",
+    "spanish": "retozar / jugar",
+    "prefix": "",
+    "root": "frolic (merry, playful)",
+    "suffix": "",
+    "meaning": "To play and move about cheerfully and energetically",
+    "correct": "romp",
+    "example": "The children frolicked in the park. (Los niños jugaron alegremente en el parque)",
+    "alternates": ["work", "deduce", "shirt"]
+  },
+  {
+    "word": "impose",
+    "spanish": "imponer",
+    "prefix": "im- (upon)",
+    "root": "pose (put, place)",
+    "suffix": "",
+    "meaning": "To force something to be accepted, obeyed, or endured",
+    "correct": "force",
+    "example": "The government may impose new restrictions. (El gobierno puede imponer nuevas restricciones)",
+    "alternates": ["help", "written", "poem"]
+  },
+  {
+    "word": "prioritize",
+    "spanish": "priorizar",
+    "prefix": "prior- (earlier, more important)",
+    "root": "prior",
+    "suffix": "-ize (make or do)",
+    "meaning": "To arrange or deal with things according to their importance",
+    "correct": "organize",
+    "example": "You should prioritize the most important tasks first. (Debes priorizar las tareas más importantes)",
+    "alternates": ["scramble", "ignore", "postpone"]
+  },
+  {
+    "word": "hasten",
+    "spanish": "apresurar",
+    "prefix": "",
+    "root": "haste (speed)",
+    "suffix": "-en (cause to become)",
+    "meaning": "To move or act quickly, or cause something to happen sooner",
+    "correct": "rush",
+    "example": "They hastened to complete the mission before nightfall. (Se apresuraron a completar la misión)",
+    "alternates": ["furnish", "establish", "clash"]
+  },
+  {
+    "word": "embargo",
+    "spanish": "embargo / prohibición",
+    "prefix": "",
+    "root": "embargar (restrain, prohibit)",
+    "suffix": "",
+    "meaning": "An official prohibition on trade or other commercial activity",
+    "correct": "prohibition",
+    "example": "The country imposed an embargo on certain goods. (El país impuso una prohibición comercial)",
+    "alternates": ["tax", "permission", "conflict"]
+  },
+  {
+    "word": "qualm",
+    "spanish": "duda / preocupación",
+    "prefix": "",
+    "root": "qualm (uneasiness)",
+    "suffix": "",
+    "meaning": "An uneasy feeling of doubt, worry, or conscience",
+    "correct": "worry",
+    "example": "He had no qualms about reporting the problem. (No tuvo dudas ni preocupación en reportar el problema)",
+    "alternates": ["forethought", "message", "excuse"]
+  },
+  {
+    "word": "acquisition",
+    "spanish": "adquisición",
+    "prefix": "ac- (to)",
+    "root": "quis (seek, obtain)",
+    "suffix": "-ition",
+    "meaning": "Something obtained or acquired, especially an asset",
+    "correct": "asset",
+    "example": "The new equipment was an important acquisition for the unit. (El nuevo equipo fue una adquisición importante)",
+    "alternates": ["approximation", "contract", "plan"]
+  },
+  {
+    "word": "mope",
+    "spanish": "estar abatido / hacer pucheros",
+    "prefix": "",
+    "root": "mope (be gloomy)",
+    "suffix": "",
+    "meaning": "To be unhappy and unwilling to think or act positively",
+    "correct": "pout",
+    "example": "He spent the afternoon moping after receiving the bad news. (Pasó la tarde abatido)",
+    "alternates": ["simplify", "dance", "cough"]
+  },
+  {
+    "word": "livid",
+    "spanish": "furioso",
+    "prefix": "",
+    "root": "livid (bluish, enraged)",
+    "suffix": "",
+    "meaning": "Extremely angry or furious",
+    "correct": "seething",
+    "example": "The supervisor was livid when he discovered the mistake. (El supervisor estaba furioso)",
+    "alternates": ["heavenly", "fishy", "sordid"]
+  },
+  {
+    "word": "ubiquitous",
+    "spanish": "omnipresente",
+    "prefix": "",
+    "root": "ubique (everywhere)",
+    "suffix": "-ous",
+    "meaning": "Present, appearing, or found everywhere",
+    "correct": "pervasive",
+    "example": "Smartphones have become ubiquitous in modern society. (Los teléfonos inteligentes están en todas partes)",
+    "alternates": ["mind-boggling", "stressful", "vivid"]
+  },
+  {
+    "word": "hesitant",
+    "spanish": "vacilante / indeciso",
+    "prefix": "",
+    "root": "hesit (pause, be uncertain)",
+    "suffix": "-ant",
+    "meaning": "Unsure or slow to act because of uncertainty",
+    "correct": "undecided",
+    "example": "She was hesitant to make a decision without more information. (Estaba indecisa)",
+    "alternates": ["certain", "wicked", "superficial"]
+  },
+  {
+    "word": "efficacy",
+    "spanish": "eficacia",
+    "prefix": "ef- (out)",
+    "root": "fic (make, do)",
+    "suffix": "-acy",
+    "meaning": "The ability to produce the intended or desired result",
+    "correct": "sufficiency",
+    "example": "The study examined the efficacy of the new procedure. (El estudio examinó la eficacia del procedimiento)",
+    "alternates": ["chivalry", "mimicry", "pomposity"]
+  },
+  {
+    "word": "elicit",
+    "spanish": "provocar / obtener",
+    "prefix": "e- (out)",
+    "root": "licit (draw out)",
+    "suffix": "",
+    "meaning": "To draw out or bring forth a response, reaction, or information",
+    "correct": "bring forth",
+    "example": "The question was designed to elicit a detailed response. (La pregunta buscaba provocar una respuesta detallada)",
+    "alternates": ["correct", "stifle", "expect"]
+  },
+  {
+    "word": "yearn",
+    "spanish": "anhelar",
+    "prefix": "",
+    "root": "yearn (desire strongly)",
+    "suffix": "",
+    "meaning": "To have an intense feeling of longing or desire",
+    "correct": "hunger",
+    "example": "He yearned for the opportunity to return home. (Anhelaba la oportunidad de regresar a casa)",
+    "alternates": ["explore", "cheat", "grow old"]
+  },{
+    "word": "chronic",
+    "spanish": "crónico",
+    "prefix": "chron- (time)",
+    "root": "chron (time)",
+    "suffix": "-ic (related to)",
+    "meaning": "Persisting for a long time or constantly recurring",
+    "correct": "story",
+    "example": "The patient suffered from chronic pain. (El paciente sufría dolor crónico)",
+    "alternates": ["passenger", "jewelry", "zodiac"]
+  },
+  {
+    "word": "fallible",
+    "spanish": "falible",
+    "prefix": "",
+    "root": "fall (err, fail)",
+    "suffix": "-ible (capable of)",
+    "meaning": "Capable of making mistakes or being wrong",
+    "correct": "imperfect",
+    "example": "Even experienced leaders are fallible. (Incluso los líderes con experiencia pueden equivocarse)",
+    "alternates": ["juicy", "recalcitrant", "foreign"]
+  },
+  {
+    "word": "penalty",
+    "spanish": "castigo / penalidad",
+    "prefix": "pen- (punishment)",
+    "root": "penal (punishment)",
+    "suffix": "-ty",
+    "meaning": "A punishment imposed for breaking a law, rule, or agreement",
+    "correct": "punishment",
+    "example": "The violation resulted in a severe penalty. (La violación resultó en un castigo severo)",
+    "alternates": ["foul", "mistake", "fine"]
+  },
+  {
+    "word": "procrastinate",
+    "spanish": "procrastinar / posponer",
+    "prefix": "pro- (forward)",
+    "root": "crastin (tomorrow)",
+    "suffix": "-ate",
+    "meaning": "To delay or postpone doing something",
+    "correct": "postpone",
+    "example": "Do not procrastinate when preparing for the exam. (No pospongas la preparación para el examen)",
+    "alternates": ["starting over", "exaggerate", "promoted"]
+  },
+  {
+    "word": "inquisitive",
+    "spanish": "curioso",
+    "prefix": "in- (into)",
+    "root": "quis (ask, seek)",
+    "suffix": "-itive",
+    "meaning": "Curious and interested in learning or discovering things",
+    "correct": "curious",
+    "example": "The inquisitive student asked many questions. (El estudiante curioso hizo muchas preguntas)",
+    "alternates": ["confusion", "maze", "excitement"]
+  },
+  {
+    "word": "heresy",
+    "spanish": "herejía",
+    "prefix": "",
+    "root": "heres (choice, belief)",
+    "suffix": "-y",
+    "meaning": "A belief or opinion contrary to established religious doctrine",
+    "correct": "false doctrine",
+    "example": "The teaching was considered heresy by the religious authorities. (La enseñanza fue considerada herejía)",
+    "alternates": ["attendance", "oath of truth", "objective"]
+  },
+  {
+    "word": "impartial",
+    "spanish": "imparcial",
+    "prefix": "im- (not)",
+    "root": "partial (biased toward one side)",
+    "suffix": "",
+    "meaning": "Treating all sides equally and fairly; unbiased",
+    "correct": "objective",
+    "example": "A judge is expected to remain impartial. (Se espera que un juez sea imparcial)",
+    "alternates": ["incomplete", "undecided", "restless"]
+  },
+  {
+    "word": "migratory",
+    "spanish": "migratorio",
+    "prefix": "migr- (move)",
+    "root": "migr (move from place to place)",
+    "suffix": "-atory",
+    "meaning": "Moving from one place to another, especially seasonally",
+    "correct": "wandering",
+    "example": "Many birds are migratory and travel south during winter. (Muchas aves son migratorias)",
+    "alternates": ["stationary", "winged", "hopelessness"]
+  },
+  {
+    "word": "abstinence",
+    "spanish": "abstinencia",
+    "prefix": "ab- (away)",
+    "root": "stin (hold)",
+    "suffix": "-ence",
+    "meaning": "The practice of deliberately refraining from something",
+    "correct": "self-denial",
+    "example": "Abstinence requires self-control. (La abstinencia requiere autocontrol)",
+    "alternates": ["interest", "ignorance", "forged"]
+  },
+  {
+    "word": "portly",
+    "spanish": "corpulento",
+    "prefix": "",
+    "root": "portly (stout, dignified)",
+    "suffix": "-ly",
+    "meaning": "Having a stout or somewhat fat body",
+    "correct": "fat",
+    "example": "The portly man walked slowly across the room. (El hombre corpulento caminó lentamente)",
+    "alternates": ["chaotic", "calm", "boat landing"]
+  },
+  {
+    "word": "hindrance",
+    "spanish": "obstáculo",
+    "prefix": "",
+    "root": "hinder (obstruct)",
+    "suffix": "-ance",
+    "meaning": "A thing that provides resistance, delay, or obstruction",
+    "correct": "barrier",
+    "example": "Lack of preparation can be a major hindrance. (La falta de preparación puede ser un gran obstáculo)",
+    "alternates": ["background", "construction", "assistance"]
+  },
+  {
+    "word": "nuance",
+    "spanish": "matiz",
+    "prefix": "",
+    "root": "nuance (shade, subtle distinction)",
+    "suffix": "",
+    "meaning": "A subtle difference in meaning, expression, or tone",
+    "correct": "tone or hint",
+    "example": "He understood the nuance in her response. (Entendió el matiz de su respuesta)",
+    "alternates": ["hesitant", "ordinary", "fumes"]
+  },
+  {
+    "word": "dwindle",
+    "spanish": "disminuir",
+    "prefix": "",
+    "root": "dwindle (shrink, become less)",
+    "suffix": "",
+    "meaning": "To gradually become smaller in size, amount, or strength",
+    "correct": "decrease",
+    "example": "The supplies began to dwindle after several days. (Los suministros comenzaron a disminuir)",
+    "alternates": ["grow", "delay", "destroy"]
+  },
+  {
+    "word": "despair",
+    "spanish": "desesperación",
+    "prefix": "de- (away)",
+    "root": "sper (hope)",
+    "suffix": "",
+    "meaning": "The complete loss or absence of hope",
+    "correct": "hopelessness",
+    "example": "He refused to give in to despair. (Se negó a caer en la desesperación)",
+    "alternates": ["jealousy", "selfishness", "generosity"]
+  },
+  {
+    "word": "circulate",
+    "spanish": "circular / distribuir",
+    "prefix": "circ- (around)",
+    "root": "circul (circle)",
+    "suffix": "-ate",
+    "meaning": "To move or pass continuously through a system or among people",
+    "correct": "pass around",
+    "example": "The memo was circulated among all employees. (El memorando fue distribuido entre todos)",
+    "alternates": ["push", "connect", "run in circles"]
+  },
+  {
+    "word": "meander",
+    "spanish": "serpentear",
+    "prefix": "",
+    "root": "meander (wind, wander)",
+    "suffix": "",
+    "meaning": "To follow a winding or indirect course",
+    "correct": "zigzag",
+    "example": "The trail meandered through the forest. (El sendero serpenteaba por el bosque)",
+    "alternates": ["thoughtful", "sad", "straight"]
+  },
+  {
+    "word": "pigment",
+    "spanish": "pigmento",
+    "prefix": "",
+    "root": "pigment (coloring substance)",
+    "suffix": "",
+    "meaning": "A substance that gives color to material",
+    "correct": "coloring matter",
+    "example": "The artist mixed different pigments to create the desired shade. (El artista mezcló pigmentos)",
+    "alternates": ["young pig", "weary traveler", "pigsty"]
+  },
+  {
+    "word": "irrational",
+    "spanish": "irracional",
+    "prefix": "ir- (not)",
+    "root": "ration (reason)",
+    "suffix": "-al",
+    "meaning": "Not logical or reasonable",
+    "correct": "unreasonable",
+    "example": "His fear was irrational because there was no real danger. (Su miedo era irracional)",
+    "alternates": ["unbelievable", "responsible", "regrettable"]
+  },
+  {
+    "word": "ecstasy",
+    "spanish": "éxtasis",
+    "prefix": "ec- (out)",
+    "root": "stas (stand)",
+    "suffix": "-y",
+    "meaning": "An overwhelming feeling of great happiness or joyful excitement",
+    "correct": "delight or rapture",
+    "example": "The fans were in ecstasy after the victory. (Los fanáticos estaban en éxtasis)",
+    "alternates": ["unexpected", "not explained", "disgust"]
+  },
+  {
+    "word": "paraphrase",
+    "spanish": "parafrasear",
+    "prefix": "para- (beside)",
+    "root": "phrase (expression)",
+    "suffix": "",
+    "meaning": "To express the meaning of something using different words",
+    "correct": "reword",
+    "example": "The student was asked to paraphrase the paragraph. (Al estudiante se le pidió reformular el párrafo)",
+    "alternates": ["belonging to", "honest", "responsible"]
+  },
+  {
+    "word": "predicament",
+    "spanish": "situación difícil",
+    "prefix": "pre- (before)",
+    "root": "dic (say, declare)",
+    "suffix": "-ment",
+    "meaning": "A difficult, unpleasant, or embarrassing situation",
+    "correct": "bad situation",
+    "example": "He found himself in a difficult predicament. (Se encontró en una situación difícil)",
+    "alternates": ["healing lotion", "expected result", "therapy"]
+  },
+  {
+    "word": "optimum",
+    "spanish": "óptimo",
+    "prefix": "",
+    "root": "optim (best)",
+    "suffix": "-um",
+    "meaning": "The best or most favorable condition or level",
+    "correct": "peak",
+    "example": "The machine performs at its optimum temperature. (La máquina funciona en su temperatura óptima)",
+    "alternates": ["unclear", "opaque", "harmful"]
+  },
+  {
+    "word": "elaborate",
+    "spanish": "elaborar / explicar en detalle",
+    "prefix": "e- (out)",
+    "root": "labor (work)",
+    "suffix": "-ate",
+    "meaning": "To explain or develop something in greater detail",
+    "correct": "give more",
+    "example": "Could you elaborate on your answer? (¿Puedes explicar tu respuesta con más detalle?)",
+    "alternates": ["sift ashes", "escape", "work hard"]
+  },
+  {
+    "word": "nocturnal",
+    "spanish": "nocturno",
+    "prefix": "noct- (night)",
+    "root": "noct (night)",
+    "suffix": "-urnal",
+    "meaning": "Active during or relating to the night",
+    "correct": "night time",
+    "example": "Owls are nocturnal animals. (Los búhos son animales nocturnos)",
+    "alternates": ["funny", "curious", "harmful"]
+  },
+  {
+    "word": "ferocious",
+    "spanish": "feroz",
+    "prefix": "",
+    "root": "feroc (fierce)",
+    "suffix": "-ious",
+    "meaning": "Extremely fierce, violent, or savage",
+    "correct": "vicious",
+    "example": "The animal became ferocious when threatened. (El animal se volvió feroz)",
+    "alternates": ["friendly", "common", "overt"]
+  },{
+    "word": "aural",
+    "spanish": "auditivo",
+    "prefix": "",
+    "root": "aur (ear)",
+    "suffix": "-al (related to)",
+    "meaning": "Relating to the ear or the sense of hearing",
+    "correct": "sound",
+    "example": "The test included an aural component. (El examen incluía una parte auditiva)",
+    "alternates": ["clouds", "sight", "gold"]
+  },
+  {
+    "word": "meticulous",
+    "spanish": "meticuloso",
+    "prefix": "",
+    "root": "meticul (fearful, careful)",
+    "suffix": "-ous (full of)",
+    "meaning": "Showing great attention to detail; very careful and precise",
+    "correct": "detailed",
+    "example": "She kept meticulous records of every repair. (Mantuvo registros muy detallados)",
+    "alternates": ["eclectic", "foster", "hankering"]
+  },
+  {
+    "word": "nebulous",
+    "spanish": "nebuloso / impreciso",
+    "prefix": "",
+    "root": "nebul (cloud)",
+    "suffix": "-ous (full of)",
+    "meaning": "Unclear, vague, or ill-defined",
+    "correct": "obscure",
+    "example": "His explanation was too nebulous to understand. (Su explicación era demasiado imprecisa)",
+    "alternates": ["moratorium", "obtrude", "dossier"]
+  },
+  {
+    "word": "universal",
+    "spanish": "universal",
+    "prefix": "uni- (one)",
+    "root": "vers (turn)",
+    "suffix": "-al",
+    "meaning": "Applicable to all cases or found everywhere",
+    "correct": "common",
+    "example": "The need for communication is universal. (La necesidad de comunicación es universal)",
+    "alternates": ["leeway", "purblind", "quiescence"]
+  },
+  {
+    "word": "homage",
+    "spanish": "homenaje",
+    "prefix": "",
+    "root": "hom (man)",
+    "suffix": "-age",
+    "meaning": "Special honor or respect shown publicly",
+    "correct": "honor",
+    "example": "The ceremony paid homage to fallen soldiers. (La ceremonia rindió homenaje a los soldados caídos)",
+    "alternates": ["publicity", "good", "recourse"]
+  },
+  {
+    "word": "vex",
+    "spanish": "molestar / irritar",
+    "prefix": "",
+    "root": "vex (shake, disturb)",
+    "suffix": "",
+    "meaning": "To make someone feel annoyed, frustrated, or worried",
+    "correct": "annoy",
+    "example": "The recurring problem continued to vex the technicians. (El problema continuó molestando a los técnicos)",
+    "alternates": ["luster", "gaunt", "fragility"]
+  },
+  {
+    "word": "vitalize",
+    "spanish": "revitalizar",
+    "prefix": "",
+    "root": "vit (life)",
+    "suffix": "-ize",
+    "meaning": "To give strength, energy, or vitality to",
+    "correct": "energize",
+    "example": "The new program helped vitalize the organization. (El nuevo programa ayudó a revitalizar la organización)",
+    "alternates": ["encampment", "fortuitous", "elusive"]
+  },
+  {
+    "word": "weep",
+    "spanish": "llorar",
+    "prefix": "",
+    "root": "weep (cry)",
+    "suffix": "",
+    "meaning": "To shed tears, usually because of sadness or strong emotion",
+    "correct": "cry",
+    "example": "She began to weep after hearing the news. (Comenzó a llorar después de escuchar la noticia)",
+    "alternates": ["dreadful", "fraction", "modicum"]
+  },
+  {
+    "word": "perforate",
+    "spanish": "perforar",
+    "prefix": "per- (through)",
+    "root": "for (bore, pierce)",
+    "suffix": "-ate",
+    "meaning": "To pierce and make a hole or series of holes in something",
+    "correct": "puncture",
+    "example": "The sharp object can perforate the material. (El objeto puede perforar el material)",
+    "alternates": ["assail", "argument", "glean"]
+  },
+  {
+    "word": "relished",
+    "spanish": "disfrutó",
+    "prefix": "",
+    "root": "relish (enjoy)",
+    "suffix": "-ed",
+    "meaning": "Enjoyed something greatly",
+    "correct": "enjoyed",
+    "example": "He relished the opportunity to learn a new skill. (Disfrutó la oportunidad de aprender una habilidad nueva)",
+    "alternates": ["disliked", "roiled", "tasted"]
+  },
+  {
+    "word": "petrify",
+    "spanish": "petrificar",
+    "prefix": "petr- (stone)",
+    "root": "petr (stone)",
+    "suffix": "-ify (make)",
+    "meaning": "To turn organic matter into a stony substance; fossilize",
+    "correct": "fossilize",
+    "example": "Minerals can gradually petrify organic material. (Los minerales pueden petrificar material orgánico)",
+    "alternates": ["willing", "incubate", "endear"]
+  },
+  {
+    "word": "predisposed",
+    "spanish": "predispuesto",
+    "prefix": "pre- (before)",
+    "root": "dispose (incline, arrange)",
+    "suffix": "-ed",
+    "meaning": "Inclined or susceptible to something beforehand",
+    "correct": "biased",
+    "example": "His previous experience predisposed him toward that solution. (Su experiencia lo predisponía hacia esa solución)",
+    "alternates": ["gaudy", "impediment", "neophyte"]
+  },
+  {
+    "word": "temperate",
+    "spanish": "moderado / templado",
+    "prefix": "",
+    "root": "temper (moderate)",
+    "suffix": "-ate",
+    "meaning": "Moderate and not extreme",
+    "correct": "moderate",
+    "example": "The region has a temperate climate. (La región tiene un clima moderado)",
+    "alternates": ["hot", "arid", "frigid"]
+  },
+  {
+    "word": "permeated",
+    "spanish": "impregnado / saturado",
+    "prefix": "per- (through)",
+    "root": "me (pass)",
+    "suffix": "-ated",
+    "meaning": "Spread throughout or passed through every part of something",
+    "correct": "saturated",
+    "example": "The smell permeated the entire building. (El olor impregnó todo el edificio)",
+    "alternates": ["coated", "enveloped", "waned"]
+  },
+  {
+    "word": "thrive",
+    "spanish": "prosperar",
+    "prefix": "",
+    "root": "thrive (grow, prosper)",
+    "suffix": "",
+    "meaning": "To grow, develop, or be successful",
+    "correct": "prosper",
+    "example": "Plants thrive when they receive enough sunlight. (Las plantas prosperan con suficiente luz)",
+    "alternates": ["validate", "fail", "pique"]
+  },
+  {
+    "word": "berate",
+    "spanish": "reprender",
+    "prefix": "be- (thoroughly)",
+    "root": "rate (scold)",
+    "suffix": "",
+    "meaning": "To scold or criticize someone angrily",
+    "correct": "reprimand",
+    "example": "The supervisor berated him for ignoring the instructions. (El supervisor lo reprendió)",
+    "alternates": ["compliment", "malignant", "indispensable"]
+  },
+  {
+    "word": "emphasize",
+    "spanish": "enfatizar",
+    "prefix": "em- (in)",
+    "root": "phas (show, speak)",
+    "suffix": "-ize",
+    "meaning": "To give special importance or prominence to something",
+    "correct": "highlight",
+    "example": "The instructor emphasized the importance of safety. (El instructor enfatizó la importancia de la seguridad)",
+    "alternates": ["wince", "hidden", "contort"]
+  },
+  {
+    "word": "flagrant",
+    "spanish": "flagrante / evidente",
+    "prefix": "",
+    "root": "flagr (burn, blaze)",
+    "suffix": "-ant",
+    "meaning": "Conspicuously or obviously offensive or wrong",
+    "correct": "blatant",
+    "example": "It was a flagrant violation of the rules. (Fue una violación evidente de las reglas)",
+    "alternates": ["hidden", "halt", "precipitate"]
+  },
+  {
+    "word": "wince",
+    "spanish": "hacer una mueca",
+    "prefix": "",
+    "root": "wince (shrink back)",
+    "suffix": "",
+    "meaning": "To make a slight involuntary grimace because of pain or distress",
+    "correct": "grimace",
+    "example": "He winced when the medic touched the injury. (Hizo una mueca cuando tocaron la lesión)",
+    "alternates": ["ecstasy", "attainment", "aphorism"]
+  },
+  {
+    "word": "vital",
+    "spanish": "esencial / vital",
+    "prefix": "",
+    "root": "vit (life)",
+    "suffix": "-al",
+    "meaning": "Absolutely necessary or essential",
+    "correct": "essential",
+    "example": "Communication is vital during an emergency. (La comunicación es esencial durante una emergencia)",
+    "alternates": ["unimportant", "contiguous", "caution"]
+  },
+  {
+    "word": "chronicle",
+    "spanish": "registrar / crónica",
+    "prefix": "chron- (time)",
+    "root": "chron (time)",
+    "suffix": "-icle",
+    "meaning": "To record events in the order in which they occurred",
+    "correct": "record",
+    "example": "The journal chronicles the unit's history. (El diario registra la historia de la unidad)",
+    "alternates": ["memorize", "ornament", "champion"]
+  },
+  {
+    "word": "engulfed",
+    "spanish": "envuelto / sumergido",
+    "prefix": "en- (in)",
+    "root": "gulf (large surrounding body)",
+    "suffix": "-ed",
+    "meaning": "Completely surrounded, covered, or immersed by something",
+    "correct": "immersed",
+    "example": "The building was engulfed in smoke. (El edificio quedó completamente envuelto en humo)",
+    "alternates": ["hint", "coherent", "mounted"]
+  },
+  {
+    "word": "adorn",
+    "spanish": "adornar",
+    "prefix": "ad- (to)",
+    "root": "orn (decorate)",
+    "suffix": "",
+    "meaning": "To make something more attractive by decorating it",
+    "correct": "embellish",
+    "example": "Flags adorned the entrance to the building. (Las banderas adornaban la entrada)",
+    "alternates": ["remove", "bombard", "maintain"]
+  },
+  {
+    "word": "coroner",
+    "spanish": "médico forense",
+    "prefix": "",
+    "root": "coron (crown)",
+    "suffix": "-er",
+    "meaning": "An official who investigates certain deaths, especially unexpected or suspicious deaths",
+    "correct": "forensic examiner",
+    "example": "The coroner examined the cause of death. (El médico forense examinó la causa de muerte)",
+    "alternates": ["detective", "dwindle", "hesitate"]
+  },
+  {
+    "word": "demoralized",
+    "spanish": "desmoralizado",
+    "prefix": "de- (remove, reverse)",
+    "root": "moral (confidence, spirit)",
+    "suffix": "-ized",
+    "meaning": "Having lost confidence, hope, or morale",
+    "correct": "disheartened",
+    "example": "The team felt demoralized after repeated failures. (El equipo se sintió desmoralizado)",
+    "alternates": ["lambaste", "encourage", "swagger"]
+  },{
+    "word": "abyss",
+    "spanish": "abismo",
+    "prefix": "a- (without)",
+    "root": "byss (bottom)",
+    "suffix": "",
+    "meaning": "A deep or seemingly bottomless chasm",
+    "correct": "chasm",
+    "example": "The climber looked down into the abyss. (El escalador miró hacia el profundo abismo)",
+    "alternates": ["plateau", "summit", "plain"]
+  },
+  {
+    "word": "assail",
+    "spanish": "atacar",
+    "prefix": "ad- (toward)",
+    "root": "sal (leap)",
+    "suffix": "",
+    "meaning": "To make a violent attack on a person or place",
+    "correct": "attack",
+    "example": "Enemy forces attempted to assail the position. (Las fuerzas enemigas intentaron atacar la posición)",
+    "alternates": ["protect", "assist", "retreat"]
+  },
+  {
+    "word": "dossier",
+    "spanish": "expediente",
+    "prefix": "",
+    "root": "dossier (bundle of documents)",
+    "suffix": "",
+    "meaning": "A collection of documents containing detailed information about a person or subject",
+    "correct": "file",
+    "example": "The investigator reviewed the complete dossier. (El investigador revisó el expediente completo)",
+    "alternates": ["rumor", "speech", "argument"]
+  },
+  {
+    "word": "glean",
+    "spanish": "recopilar",
+    "prefix": "",
+    "root": "glean (gather)",
+    "suffix": "",
+    "meaning": "To obtain or collect information gradually or from various sources",
+    "correct": "gather",
+    "example": "She gleaned useful information from the report. (Recopiló información útil del informe)",
+    "alternates": ["scatter", "discard", "conceal"]
+  },
+  {
+    "word": "fortuitous",
+    "spanish": "fortuito / afortunado",
+    "prefix": "",
+    "root": "fortuit (chance)",
+    "suffix": "-ous",
+    "meaning": "Happening by chance, often with a fortunate result",
+    "correct": "accidental",
+    "example": "Their meeting was entirely fortuitous. (Su encuentro ocurrió por casualidad)",
+    "alternates": ["planned", "deliberate", "certain"]
+  },
+  {
+    "word": "neophyte",
+    "spanish": "novato",
+    "prefix": "neo- (new)",
+    "root": "phyt (plant, grow)",
+    "suffix": "",
+    "meaning": "A person who is new to a subject, skill, or activity",
+    "correct": "beginner",
+    "example": "As a neophyte, he still had much to learn. (Como novato, todavía tenía mucho que aprender)",
+    "alternates": ["expert", "veteran", "master"]
+  },
+  {
+    "word": "obtrude",
+    "spanish": "entrometerse / imponer",
+    "prefix": "ob- (toward)",
+    "root": "trud (push)",
+    "suffix": "",
+    "meaning": "To become noticeable in an unwelcome or intrusive way",
+    "correct": "intrude",
+    "example": "He tried not to obtrude on their private conversation. (Intentó no entrometerse)",
+    "alternates": ["withdraw", "avoid", "retreat"]
+  },
+  {
+    "word": "purblind",
+    "spanish": "miope / poco perspicaz",
+    "prefix": "",
+    "root": "purblind (partially blind)",
+    "suffix": "",
+    "meaning": "Having poor vision or lacking insight and understanding",
+    "correct": "shortsighted",
+    "example": "The purblind decision ignored the long-term consequences. (La decisión fue poco previsora)",
+    "alternates": ["perceptive", "visionary", "observant"]
+  },
+  {
+    "word": "quiescence",
+    "spanish": "inactividad / quietud",
+    "prefix": "",
+    "root": "quiesc (rest, be quiet)",
+    "suffix": "-ence",
+    "meaning": "A state or period of inactivity or dormancy",
+    "correct": "inactivity",
+    "example": "After a period of quiescence, the organization became active again. (Después de un período de inactividad)",
+    "alternates": ["activity", "movement", "agitation"]
+  },
+  {
+    "word": "recourse",
+    "spanish": "recurso",
+    "prefix": "re- (back)",
+    "root": "cours (run)",
+    "suffix": "",
+    "meaning": "A source of help or a course of action available in a difficult situation",
+    "correct": "resort",
+    "example": "Legal action was their final recourse. (La acción legal era su último recurso)",
+    "alternates": ["obstacle", "refusal", "danger"]
+  },
+  {
+    "word": "luster",
+    "spanish": "brillo",
+    "prefix": "",
+    "root": "lustr (shine)",
+    "suffix": "",
+    "meaning": "A gentle sheen, shine, or glow",
+    "correct": "shine",
+    "example": "The metal regained its luster after polishing. (El metal recuperó su brillo)",
+    "alternates": ["darkness", "roughness", "dullness"]
+  },
+  {
+    "word": "fragility",
+    "spanish": "fragilidad",
+    "prefix": "",
+    "root": "frag (break)",
+    "suffix": "-ility",
+    "meaning": "The quality of being easily broken or damaged",
+    "correct": "delicacy",
+    "example": "The fragility of the equipment required careful handling. (La fragilidad del equipo requería cuidado)",
+    "alternates": ["strength", "durability", "stability"]
+  },
+  {
+    "word": "encampment",
+    "spanish": "campamento",
+    "prefix": "en- (in)",
+    "root": "camp (field)",
+    "suffix": "-ment",
+    "meaning": "A temporary camp or place where people are lodged in tents",
+    "correct": "camp",
+    "example": "The soldiers established an encampment before nightfall. (Los soldados establecieron un campamento)",
+    "alternates": ["city", "harbor", "factory"]
+  },
+  {
+    "word": "dreadful",
+    "spanish": "terrible",
+    "prefix": "",
+    "root": "dread (fear)",
+    "suffix": "-ful",
+    "meaning": "Causing great suffering, fear, or unhappiness; extremely bad",
+    "correct": "terrible",
+    "example": "The weather conditions were dreadful. (Las condiciones climáticas eran terribles)",
+    "alternates": ["pleasant", "excellent", "delightful"]
+  },
+  {
+    "word": "incubate",
+    "spanish": "incubar",
+    "prefix": "in- (upon)",
+    "root": "cub (lie)",
+    "suffix": "-ate",
+    "meaning": "To maintain conditions favorable for development or hatching",
+    "correct": "develop",
+    "example": "The eggs must incubate at the correct temperature. (Los huevos deben incubarse a la temperatura correcta)",
+    "alternates": ["destroy", "prevent", "abandon"]
+  },
+  {
+    "word": "endear",
+    "spanish": "hacer querido",
+    "prefix": "en- (make)",
+    "root": "dear (beloved)",
+    "suffix": "",
+    "meaning": "To cause someone to be loved or liked",
+    "correct": "make beloved",
+    "example": "His generosity endeared him to his coworkers. (Su generosidad hizo que sus compañeros lo apreciaran)",
+    "alternates": ["alienate", "offend", "repel"]
+  },
+  {
+    "word": "impediment",
+    "spanish": "impedimento",
+    "prefix": "im- (in)",
+    "root": "ped (foot)",
+    "suffix": "-iment",
+    "meaning": "A hindrance or obstruction that makes progress difficult",
+    "correct": "obstacle",
+    "example": "Poor communication became an impediment to progress. (La mala comunicación se convirtió en un obstáculo)",
+    "alternates": ["advantage", "assistance", "solution"]
+  },
+  {
+    "word": "loathe",
+    "spanish": "aborrecer",
+    "prefix": "",
+    "root": "loathe (dislike intensely)",
+    "suffix": "",
+    "meaning": "To feel intense dislike or disgust for",
+    "correct": "abhor",
+    "example": "He loathed dishonest behavior. (Él aborrecía el comportamiento deshonesto)",
+    "alternates": ["want", "waste", "erase"]
+  },
+  {
+    "word": "willowy",
+    "spanish": "esbelto / grácil",
+    "prefix": "",
+    "root": "willow (a slender flexible tree)",
+    "suffix": "-y",
+    "meaning": "Tall, slender, flexible, and graceful",
+    "correct": "gracefully",
+    "example": "The dancer had a willowy figure. (La bailarina tenía una figura esbelta)",
+    "alternates": ["obstinate", "small", "carry"]
+  },
+  {
+    "word": "ponderous",
+    "spanish": "pesado / engorroso",
+    "prefix": "",
+    "root": "ponder (weight)",
+    "suffix": "-ous",
+    "meaning": "Slow and clumsy because of great weight; cumbersome",
+    "correct": "cumbersome",
+    "example": "The ponderous equipment was difficult to move. (El equipo pesado era difícil de mover)",
+    "alternates": ["marginal", "easy", "failure"]
+  },
+  {
+    "word": "synthesize",
+    "spanish": "sintetizar / combinar",
+    "prefix": "syn- (together)",
+    "root": "the (put, place)",
+    "suffix": "-ize",
+    "meaning": "To combine separate elements into a coherent whole",
+    "correct": "combine",
+    "example": "Students must synthesize information from several sources. (Los estudiantes deben combinar información de varias fuentes)",
+    "alternates": ["imaginary", "forage", "larger"]
+  },
+  {
+    "word": "compel",
+    "spanish": "obligar",
+    "prefix": "com- (together)",
+    "root": "pel (drive, push)",
+    "suffix": "",
+    "meaning": "To force or oblige someone to do something",
+    "correct": "force",
+    "example": "The evidence compelled him to reconsider his position. (La evidencia lo obligó a reconsiderar su posición)",
+    "alternates": ["deny", "help", "reprise"]
+  },
+  {
+    "word": "monopolize",
+    "spanish": "monopolizar",
+    "prefix": "mono- (one)",
+    "root": "pol (sell)",
+    "suffix": "-ize",
+    "meaning": "To obtain exclusive possession or control of something",
+    "correct": "dominate",
+    "example": "One company attempted to monopolize the market. (Una compañía intentó dominar el mercado)",
+    "alternates": ["share", "police", "divide"]
+  },
+  {
+    "word": "eminent",
+    "spanish": "eminente / distinguido",
+    "prefix": "e- (out)",
+    "root": "min (project, stand out)",
+    "suffix": "-ent",
+    "meaning": "Famous and respected within a particular profession or sphere",
+    "correct": "distinguished",
+    "example": "She is an eminent scientist in her field. (Es una científica distinguida en su campo)",
+    "alternates": ["elderly", "adult", "close"]
+  },
+  {
+    "word": "skirmish",
+    "spanish": "escaramuza",
+    "prefix": "",
+    "root": "skirmish (minor fight)",
+    "suffix": "",
+    "meaning": "A minor or brief fight, especially between small groups",
+    "correct": "scuffle",
+    "example": "A brief skirmish occurred near the border. (Ocurrió una pequeña escaramuza cerca de la frontera)",
+    "alternates": ["fear", "salad", "treaty"]
+  },{
+    "word": "warranted",
+    "spanish": "justificado",
+    "prefix": "",
+    "root": "warrant (justify, authorize)",
+    "suffix": "-ed",
+    "meaning": "Justified, authorized, or necessary under the circumstances",
+    "correct": "justified",
+    "example": "The circumstances warranted further investigation. (Las circunstancias justificaban una investigación adicional)",
+    "alternates": ["official", "enforced", "eloped"]
+  },
+  {
+    "word": "synonymous",
+    "spanish": "sinónimo / equivalente",
+    "prefix": "syn- (together, same)",
+    "root": "onym (name)",
+    "suffix": "-ous",
+    "meaning": "Having the same or nearly the same meaning as another word or idea",
+    "correct": "equivalent",
+    "example": "For many people, discipline is synonymous with consistency. (Para muchas personas, disciplina es equivalente a constancia)",
+    "alternates": ["knife", "different", "growth"]
+  },
+  {
+    "word": "hostile",
+    "spanish": "hostil / agresivo",
+    "prefix": "",
+    "root": "host (enemy)",
+    "suffix": "-ile",
+    "meaning": "Unfriendly, antagonistic, or aggressive",
+    "correct": "aggressive",
+    "example": "The patrol encountered a hostile group. (La patrulla encontró un grupo agresivo)",
+    "alternates": ["friendly", "homely", "tame"]
+  },
+  {
+    "word": "defaced",
+    "spanish": "desfigurado / estropeado",
+    "prefix": "de- (remove, spoil)",
+    "root": "face (surface, appearance)",
+    "suffix": "-ed",
+    "meaning": "Spoiled or damaged the surface or appearance of something",
+    "correct": "marred",
+    "example": "The monument had been defaced with paint. (El monumento había sido estropeado con pintura)",
+    "alternates": ["incomplete", "beautiful", "enjoyable"]
+  },
+  {
+    "word": "indictment",
+    "spanish": "acusación",
+    "prefix": "in- (against)",
+    "root": "dict (say, declare)",
+    "suffix": "-ment",
+    "meaning": "A formal accusation that someone has committed a crime",
+    "correct": "accusation",
+    "example": "The grand jury returned an indictment. (El gran jurado presentó una acusación formal)",
+    "alternates": ["sentence", "verdict", "toil"]
+  },
+  {
+    "word": "sanction",
+    "spanish": "aprobación / autorización",
+    "prefix": "",
+    "root": "sanct (sacred, establish)",
+    "suffix": "-ion",
+    "meaning": "Official approval or authorization for an action",
+    "correct": "approval",
+    "example": "The operation proceeded with official sanction. (La operación continuó con aprobación oficial)",
+    "alternates": ["puny", "few", "bidding"]
+  },
+  {
+    "word": "restitution",
+    "spanish": "restitución / compensación",
+    "prefix": "re- (back, again)",
+    "root": "stitut (set, place)",
+    "suffix": "-ion",
+    "meaning": "Compensation for loss, damage, or injury; restoration of something lost",
+    "correct": "compensation",
+    "example": "The court ordered restitution for the damaged property. (El tribunal ordenó compensación por la propiedad dañada)",
+    "alternates": ["captured", "mortgage", "shocking"]
+  },
+  {
+    "word": "proverbial",
+    "spanish": "proverbial / tradicional",
+    "prefix": "pro- (forth)",
+    "root": "verb (word)",
+    "suffix": "-ial",
+    "meaning": "Well known or commonly referred to, especially in a proverb or traditional expression",
+    "correct": "traditional",
+    "example": "He showed the proverbial patience of a good teacher. (Mostró la proverbial paciencia de un buen maestro)",
+    "alternates": ["sing", "musically", "happiness"]
+  },
+  {
+    "word": "adaptation",
+    "spanish": "adaptación / cambio",
+    "prefix": "ad- (to, toward)",
+    "root": "apt (fit, suitable)",
+    "suffix": "-ation",
+    "meaning": "A change made to make something suitable for a new use, situation, or environment",
+    "correct": "change",
+    "example": "The adaptation allowed the equipment to operate in colder conditions. (El cambio permitió que el equipo funcionara en condiciones más frías)",
+    "alternates": ["unwilling", "sentiment", "desire"]
   }
 ]
 
