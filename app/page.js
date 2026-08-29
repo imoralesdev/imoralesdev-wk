@@ -57,6 +57,22 @@ export default function Home() {
             </Card>
           </Link>
 
+          <Link href="/bsep" className="transform hover:scale-105 transition-transform">
+            <Card className="hover:shadow-lg cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <NotebookPen className="h-6 w-6 text-blue-500" />
+                  AFCT BSEP
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  With interactive quizzes and word analysis, you may practice ASVAB vocabulary that is actually used on the exam.
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+
           {/* Math Practice Section */}
           <Link href="/math-warmup" className="transform hover:scale-105 transition-transform">
             <Card className="hover:shadow-lg cursor-pointer h-full">
